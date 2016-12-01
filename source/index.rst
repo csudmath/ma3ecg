@@ -1,0 +1,25 @@
+..  Options coomplémentaire informatique : programmation documentation master file, created by
+    sphinx-quickstart on Sat Sep  7 12:37:57 2013.
+    You can adapt this file completely to your liking, but it should at least
+    contain the root `toctree` directive.
+
+##################
+Mathématiques 3ECG
+##################
+
+
+..  toctree::
+    :glob:
+    :maxdepth: 1
+
+    01-puissances-racines/index
+    02-exp-log/index
+    03-combinatoire/index
+
+..
+    Indices and ref
+    ==================
+
+    * :tables:`genindex`
+    * :ref:`modindex`
+    * :ref:`search`
