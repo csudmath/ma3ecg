@@ -10,7 +10,7 @@ Mathématiques 3ECG
 
 ..  toctree::
     :glob:
-    :maxdepth: 1
+    :maxdepth: 3
 
     01-puissances-racines/index
     02-exp-log/index
