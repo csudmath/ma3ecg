@@ -15,6 +15,7 @@ Mathématiques 3ECG
     01-puissances-racines/index
     02-exp-log/index
     03-combinatoire/index
+    04-proba/index
 
 ..
     Indices and ref
