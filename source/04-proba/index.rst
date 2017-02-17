@@ -34,6 +34,7 @@ Corrigé détaillé de certains exercices
 
     exo-04
     exo-05
+    exo-09
 
 
 Corrigé des exercices 6 et suivants
