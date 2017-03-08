@@ -23,6 +23,8 @@ Théorie
     :maxdepth: 1
 
     intro
+    axiomes
+    probas-cond
 
 
 Corrigé détaillé de certains exercices
@@ -34,7 +36,25 @@ Corrigé détaillé de certains exercices
 
     exo-04
     exo-05
+    exo-06
+    exo-07
+    exo-08
     exo-09
+    exo-10
+    exo-11
+    exo-12
+    exo-13
+    exo-14
+    exo-15
+    exo-16
+    exo-17
+    exo-18
+    exo-19
+    exo-20
+    exo-21
+    exo-22
+    exo-23
+    exo-24
 
 
 Corrigé des exercices 6 et suivants
