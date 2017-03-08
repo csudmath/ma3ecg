@@ -49,7 +49,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Mathématiques 3ECG'
-copyright = u'avril 2016, Cédric Donner'
+copyright = u'Cédric Donner'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -195,19 +195,20 @@ htmlhelp_basename = 'tp'
 latex_elements = {
    'papersize':"a4",
    'author': "Cédric Donner",
-   'date': "avril 2016",
+   'date': "Version 2016-2017",
    'title': "Mathématiques 3ECG",
    'release' : "",
-   'releasename' : "CSUD, Option complémentaire informatique",
+   'releasename' : "",
    'fontpkg': '\\usepackage{times}',
    'babel': '\\usepackage[francais]{babel}',
+   'figure_align': 'H',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'oci-info-theo.tex', u'Mathématiques 3ECG',
+  ('index', 'ma3ecg.tex', u'Mathématiques 3ECG',
    u'Cédric Donner', 'manual'),
 ]
 

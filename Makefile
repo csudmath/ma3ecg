@@ -72,6 +72,7 @@ cleanhtml:
 	rm -rf $(BUILDDIR)/html
 
 html:
+	cp -f $(BUILDDIR)/latex/*.pdf source/files/
 	$(SPHINXBUILD) -b html -t corrige $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
@@ -142,9 +143,11 @@ latex:
 
 latexpdf:
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
+	cp -f templates/Makefile $(BUILDDIR)/latex
 	@echo "Running LaTeX files through pdflatex..."
 	$(MAKE) -C $(BUILDDIR)/latex all-pdf
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
+
 
 latexpdfja:
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
@@ -217,7 +220,7 @@ firefox:
 chrome:
 	$(chrome) "http://$(HOSTNAME):$(SPHINX_PORT)/" &
 
-livehtml: encours
+livehtml:
 	@echo Serving pages on $(SPHINX_URL)
 	sphinx-autobuild -b html -t encours -t corrige $(ALLSPHINXOPTS) $(BUILDDIR)/html --port=$(SPHINX_PORT) --host=$(SPHINX_HOST) > /dev/null
 
@@ -231,6 +234,7 @@ puthtml: cleanhtml html
 	rsync -raz build/html/* webpub@donner-online.ch:/home/webpub/html/ma3ecg/ --progress --delete
 
 deploy: puthtml
+
 	
 # putcorrige:
 # 	rsync -raz build/corrige/html/* webpub@donner-online.ch:/home/webpub/html/ --progress --delete

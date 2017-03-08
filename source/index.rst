@@ -7,6 +7,11 @@
 Mathématiques 3ECG
 ##################
 
+..  only:: html
+
+    ..  warning:: 
+
+        Ce site peut être téléchargé au format PDF : :download:`files/ma3ecg.pdf`
 
 ..  toctree::
     :glob:
