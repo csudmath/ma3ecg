@@ -2,3 +2,5 @@ venv
 build
 
 __pycache__
+
+source/files/*.pdf
