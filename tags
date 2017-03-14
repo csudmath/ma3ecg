@@ -1,0 +1,1769 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+bootstrap_theme_options.py	modules/bootstrap_theme_options.py	1;"	kind:file	line:1
+html_theme_options	modules/bootstrap_theme_options.py	/^html_theme_options = {$/;"	kind:variable	line:9
+__init__.py	modules/__init__.py	1;"	kind:file	line:1
+conf.py	source/conf.py	1;"	kind:file	line:1
+sys	source/conf.py	/^import sys$/;"	kind:namespace	line:15
+os	source/conf.py	/^import os$/;"	kind:namespace	line:16
+extensions	source/conf.py	/^extensions = [$/;"	kind:variable	line:31
+templates_path	source/conf.py	/^templates_path = ['_templates']$/;"	kind:variable	line:39
+source_suffix	source/conf.py	/^source_suffix = '.rst'$/;"	kind:variable	line:42
+master_doc	source/conf.py	/^master_doc = 'index'$/;"	kind:variable	line:48
+project	source/conf.py	/^project = u'Mathématiques 3ECG'$/;"	kind:variable	line:51
+copyright	source/conf.py	/^copyright = u'Cédric Donner'$/;"	kind:variable	line:52
+version	source/conf.py	/^version = '0.1'$/;"	kind:variable	line:59
+release	source/conf.py	/^release = '0.1'$/;"	kind:variable	line:61
+language	source/conf.py	/^language = "fr"$/;"	kind:variable	line:65
+exclude_patterns	source/conf.py	/^exclude_patterns = []$/;"	kind:variable	line:75
+pygments_style	source/conf.py	/^pygments_style = 'sphinx'$/;"	kind:variable	line:93
+theme	source/conf.py	/^theme = 'readthedocs'$/;"	kind:variable	line:104
+sphinx_rtd_theme	source/conf.py	/^        import sphinx_rtd_theme$/;"	kind:namespace	line:108
+html_theme	source/conf.py	/^        html_theme = "sphinx_rtd_theme"$/;"	kind:variable	line:109
+html_theme_path	source/conf.py	/^        html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]$/;"	kind:variable	line:110
+sphinx_bootstrap_theme	source/conf.py	/^        import sphinx_bootstrap_theme$/;"	kind:namespace	line:112
+html_theme	source/conf.py	/^        html_theme = 'bootstrap'$/;"	kind:variable	line:114
+html_theme_path	source/conf.py	/^        html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()$/;"	kind:variable	line:115
+sys	source/conf.py	/^    import sys$/;"	kind:namespace	line:117
+html_theme	source/conf.py	/^    html_theme = 'sphinxdoc'$/;"	kind:variable	line:120
+html_static_path	source/conf.py	/^html_static_path = ['_static']$/;"	kind:variable	line:141
+html_show_sourcelink	source/conf.py	/^html_show_sourcelink = False$/;"	kind:variable	line:173
+htmlhelp_basename	source/conf.py	/^htmlhelp_basename = 'tp'$/;"	kind:variable	line:190
+latex_elements	source/conf.py	/^latex_elements = {$/;"	kind:variable	line:195
+latex_documents	source/conf.py	/^latex_documents = [$/;"	kind:variable	line:210
+latex_show_pagerefs	source/conf.py	/^latex_show_pagerefs = True$/;"	kind:variable	line:224
+latex_show_urls	source/conf.py	/^latex_show_urls = True$/;"	kind:variable	line:227
+man_pages	source/conf.py	/^man_pages = [$/;"	kind:variable	line:240
+activate_this.py	venv/bin/activate_this.py	1;"	kind:file	line:1
+sys	venv/bin/activate_this.py	/^import sys$/;"	kind:namespace	line:13
+os	venv/bin/activate_this.py	/^import os$/;"	kind:namespace	line:14
+old_os_path	venv/bin/activate_this.py	/^old_os_path = os.environ.get('PATH', '')$/;"	kind:variable	line:16
+base	venv/bin/activate_this.py	/^base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:18
+site_packages	venv/bin/activate_this.py	/^    site_packages = os.path.join(base, 'Lib', 'site-packages')$/;"	kind:variable	line:20
+site_packages	venv/bin/activate_this.py	/^    site_packages = os.path.join(base, 'lib', 'python%s' % sys.version[:3], 'site-packages')$/;"	kind:variable	line:22
+prev_sys_path	venv/bin/activate_this.py	/^prev_sys_path = list(sys.path)$/;"	kind:variable	line:23
+site	venv/bin/activate_this.py	/^import site$/;"	kind:namespace	line:24
+new_sys_path	venv/bin/activate_this.py	/^new_sys_path = []$/;"	kind:variable	line:29
+python-config	venv/bin/python-config	1;"	kind:file	line:1
+sys	venv/bin/python-config	/^import sys$/;"	kind:namespace	line:3
+getopt	venv/bin/python-config	/^import getopt$/;"	kind:namespace	line:4
+sysconfig	venv/bin/python-config	/^import sysconfig$/;"	kind:namespace	line:5
+valid_opts	venv/bin/python-config	/^valid_opts = ['prefix', 'exec-prefix', 'includes', 'libs', 'cflags',$/;"	kind:variable	line:7
+exit_with_usage	venv/bin/python-config	/^def exit_with_usage(code=1):$/;"	kind:function	line:17
+pyver	venv/bin/python-config	/^pyver = sysconfig.get_config_var('VERSION')$/;"	kind:variable	line:30
+getvar	venv/bin/python-config	/^getvar = sysconfig.get_config_var$/;"	kind:variable	line:31
+opt_flags	venv/bin/python-config	/^opt_flags = [flag for (flag, val) in opts]$/;"	kind:variable	line:33
+rst2html.py	venv/bin/rst2html.py	1;"	kind:file	line:1
+locale	venv/bin/rst2html.py	/^    import locale$/;"	kind:namespace	line:12
+publish_cmdline	venv/bin/rst2html.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:17
+default_description	venv/bin/rst2html.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:17
+description	venv/bin/rst2html.py	/^description = ('Generates (X)HTML documents from standalone reStructuredText '$/;"	kind:variable	line:20
+rst2latex.py	venv/bin/rst2latex.py	1;"	kind:file	line:1
+locale	venv/bin/rst2latex.py	/^    import locale$/;"	kind:namespace	line:12
+publish_cmdline	venv/bin/rst2latex.py	/^from docutils.core import publish_cmdline$/;"	kind:namespace	line:17
+description	venv/bin/rst2latex.py	/^description = ('Generates LaTeX documents from standalone reStructuredText '$/;"	kind:variable	line:19
+rst2man.py	venv/bin/rst2man.py	1;"	kind:file	line:1
+locale	venv/bin/rst2man.py	/^import locale$/;"	kind:namespace	line:15
+publish_cmdline	venv/bin/rst2man.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:21
+default_description	venv/bin/rst2man.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:21
+manpage	venv/bin/rst2man.py	/^from docutils.writers import manpage$/;"	kind:namespace	line:22
+description	venv/bin/rst2man.py	/^description = ("Generates plain unix manual documents.  " + default_description)$/;"	kind:variable	line:24
+rst2odt.py	venv/bin/rst2odt.py	1;"	kind:file	line:1
+sys	venv/bin/rst2odt.py	/^import sys$/;"	kind:namespace	line:11
+locale	venv/bin/rst2odt.py	/^    import locale$/;"	kind:namespace	line:13
+publish_cmdline_to_binary	venv/bin/rst2odt.py	/^from docutils.core import publish_cmdline_to_binary, default_description$/;"	kind:namespace	line:18
+default_description	venv/bin/rst2odt.py	/^from docutils.core import publish_cmdline_to_binary, default_description$/;"	kind:namespace	line:18
+Writer	venv/bin/rst2odt.py	/^from docutils.writers.odf_odt import Writer, Reader$/;"	kind:namespace	line:19
+Reader	venv/bin/rst2odt.py	/^from docutils.writers.odf_odt import Writer, Reader$/;"	kind:namespace	line:19
+description	venv/bin/rst2odt.py	/^description = ('Generates OpenDocument\/OpenOffice\/ODF documents from '$/;"	kind:variable	line:22
+writer	venv/bin/rst2odt.py	/^writer = Writer()$/;"	kind:variable	line:26
+reader	venv/bin/rst2odt.py	/^reader = Reader()$/;"	kind:variable	line:27
+output	venv/bin/rst2odt.py	/^output = publish_cmdline_to_binary(reader=reader, writer=writer,$/;"	kind:variable	line:28
+description	venv/bin/rst2odt.py	/^    description=description)$/;"	kind:variable	line:29
+rst2odt_prepstyles.py	venv/bin/rst2odt_prepstyles.py	1;"	kind:file	line:1
+etree	venv/bin/rst2odt_prepstyles.py	/^from lxml import etree$/;"	kind:namespace	line:15
+sys	venv/bin/rst2odt_prepstyles.py	/^import sys$/;"	kind:namespace	line:16
+zipfile	venv/bin/rst2odt_prepstyles.py	/^import zipfile$/;"	kind:namespace	line:17
+mkstemp	venv/bin/rst2odt_prepstyles.py	/^from tempfile import mkstemp$/;"	kind:namespace	line:18
+shutil	venv/bin/rst2odt_prepstyles.py	/^import shutil$/;"	kind:namespace	line:19
+os	venv/bin/rst2odt_prepstyles.py	/^import os$/;"	kind:namespace	line:20
+NAMESPACES	venv/bin/rst2odt_prepstyles.py	/^NAMESPACES = {$/;"	kind:variable	line:22
+prepstyle	venv/bin/rst2odt_prepstyles.py	/^def prepstyle(filename):$/;"	kind:function	line:27
+main	venv/bin/rst2odt_prepstyles.py	/^def main():$/;"	kind:function	line:54
+rst2pseudoxml.py	venv/bin/rst2pseudoxml.py	1;"	kind:file	line:1
+locale	venv/bin/rst2pseudoxml.py	/^    import locale$/;"	kind:namespace	line:12
+publish_cmdline	venv/bin/rst2pseudoxml.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:17
+default_description	venv/bin/rst2pseudoxml.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:17
+description	venv/bin/rst2pseudoxml.py	/^description = ('Generates pseudo-XML from standalone reStructuredText '$/;"	kind:variable	line:20
+rst2s5.py	venv/bin/rst2s5.py	1;"	kind:file	line:1
+locale	venv/bin/rst2s5.py	/^    import locale$/;"	kind:namespace	line:13
+publish_cmdline	venv/bin/rst2s5.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:18
+default_description	venv/bin/rst2s5.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:18
+description	venv/bin/rst2s5.py	/^description = ('Generates S5 (X)HTML slideshow documents from standalone '$/;"	kind:variable	line:21
+rst2xetex.py	venv/bin/rst2xetex.py	1;"	kind:file	line:1
+locale	venv/bin/rst2xetex.py	/^    import locale$/;"	kind:namespace	line:12
+publish_cmdline	venv/bin/rst2xetex.py	/^from docutils.core import publish_cmdline$/;"	kind:namespace	line:17
+description	venv/bin/rst2xetex.py	/^description = ('Generates XeLaTeX documents from standalone reStructuredText '$/;"	kind:variable	line:19
+rst2xml.py	venv/bin/rst2xml.py	1;"	kind:file	line:1
+locale	venv/bin/rst2xml.py	/^    import locale$/;"	kind:namespace	line:12
+publish_cmdline	venv/bin/rst2xml.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:17
+default_description	venv/bin/rst2xml.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:17
+description	venv/bin/rst2xml.py	/^description = ('Generates Docutils-native XML from standalone '$/;"	kind:variable	line:20
+rstpep2html.py	venv/bin/rstpep2html.py	1;"	kind:file	line:1
+locale	venv/bin/rstpep2html.py	/^    import locale$/;"	kind:namespace	line:13
+publish_cmdline	venv/bin/rstpep2html.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:18
+default_description	venv/bin/rstpep2html.py	/^from docutils.core import publish_cmdline, default_description$/;"	kind:namespace	line:18
+description	venv/bin/rstpep2html.py	/^description = ('Generates (X)HTML from reStructuredText-format PEP files.  '$/;"	kind:variable	line:21
+description	venv/bin/rstpep2html.py	/^                description=description)$/;"	kind:variable	line:25
+abc.py	venv/lib/python3.4/abc.py	1;"	kind:file	line:1
+WeakSet	venv/lib/python3.4/abc.py	/^from _weakrefset import WeakSet$/;"	kind:namespace	line:6
+abstractmethod	venv/lib/python3.4/abc.py	/^def abstractmethod(funcobj):$/;"	kind:function	line:9
+abstractclassmethod	venv/lib/python3.4/abc.py	/^class abstractclassmethod(classmethod):$/;"	kind:class	line:29
+__isabstractmethod__	venv/lib/python3.4/abc.py	/^    __isabstractmethod__ = True$/;"	kind:variable	line:46
+__init__	venv/lib/python3.4/abc.py	/^    def __init__(self, callable):$/;"	kind:member	line:48
+abstractstaticmethod	venv/lib/python3.4/abc.py	/^class abstractstaticmethod(staticmethod):$/;"	kind:class	line:53
+__isabstractmethod__	venv/lib/python3.4/abc.py	/^    __isabstractmethod__ = True$/;"	kind:variable	line:70
+__init__	venv/lib/python3.4/abc.py	/^    def __init__(self, callable):$/;"	kind:member	line:72
+abstractproperty	venv/lib/python3.4/abc.py	/^class abstractproperty(property):$/;"	kind:class	line:77
+__isabstractmethod__	venv/lib/python3.4/abc.py	/^    __isabstractmethod__ = True$/;"	kind:variable	line:106
+ABCMeta	venv/lib/python3.4/abc.py	/^class ABCMeta(type):$/;"	kind:class	line:109
+_abc_invalidation_counter	venv/lib/python3.4/abc.py	/^    _abc_invalidation_counter = 0$/;"	kind:variable	line:130
+__new__	venv/lib/python3.4/abc.py	/^    def __new__(mcls, name, bases, namespace):$/;"	kind:member	line:132
+register	venv/lib/python3.4/abc.py	/^    def register(cls, subclass):$/;"	kind:member	line:151
+_dump_registry	venv/lib/python3.4/abc.py	/^    def _dump_registry(cls, file=None):$/;"	kind:member	line:169
+__instancecheck__	venv/lib/python3.4/abc.py	/^    def __instancecheck__(cls, instance):$/;"	kind:member	line:178
+__subclasscheck__	venv/lib/python3.4/abc.py	/^    def __subclasscheck__(cls, subclass):$/;"	kind:member	line:194
+ABC	venv/lib/python3.4/abc.py	/^class ABC(metaclass=ABCMeta):$/;"	kind:class	line:234
+get_cache_token	venv/lib/python3.4/abc.py	/^def get_cache_token():$/;"	kind:function	line:241
+base64.py	venv/lib/python3.4/base64.py	1;"	kind:file	line:1
+re	venv/lib/python3.4/base64.py	/^import re$/;"	kind:namespace	line:9
+struct	venv/lib/python3.4/base64.py	/^import struct$/;"	kind:namespace	line:10
+binascii	venv/lib/python3.4/base64.py	/^import binascii$/;"	kind:namespace	line:11
+__all__	venv/lib/python3.4/base64.py	/^__all__ = [$/;"	kind:variable	line:14
+bytes_types	venv/lib/python3.4/base64.py	/^bytes_types = (bytes, bytearray)  # Types acceptable as binary data$/;"	kind:variable	line:32
+_bytes_from_decode_data	venv/lib/python3.4/base64.py	/^def _bytes_from_decode_data(s):$/;"	kind:function	line:34
+b64encode	venv/lib/python3.4/base64.py	/^def b64encode(s, altchars=None):$/;"	kind:function	line:51
+b64decode	venv/lib/python3.4/base64.py	/^def b64decode(s, altchars=None, validate=False):$/;"	kind:function	line:69
+standard_b64encode	venv/lib/python3.4/base64.py	/^def standard_b64encode(s):$/;"	kind:function	line:93
+standard_b64decode	venv/lib/python3.4/base64.py	/^def standard_b64decode(s):$/;"	kind:function	line:100
+_urlsafe_encode_translation	venv/lib/python3.4/base64.py	/^_urlsafe_encode_translation = bytes.maketrans(b'+\/', b'-_')$/;"	kind:variable	line:111
+_urlsafe_decode_translation	venv/lib/python3.4/base64.py	/^_urlsafe_decode_translation = bytes.maketrans(b'-_', b'+\/')$/;"	kind:variable	line:112
+urlsafe_b64encode	venv/lib/python3.4/base64.py	/^def urlsafe_b64encode(s):$/;"	kind:function	line:114
+urlsafe_b64decode	venv/lib/python3.4/base64.py	/^def urlsafe_b64decode(s):$/;"	kind:function	line:123
+_b32alphabet	venv/lib/python3.4/base64.py	/^_b32alphabet = b'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567'$/;"	kind:variable	line:140
+_b32tab2	venv/lib/python3.4/base64.py	/^_b32tab2 = None$/;"	kind:variable	line:141
+_b32rev	venv/lib/python3.4/base64.py	/^_b32rev = None$/;"	kind:variable	line:142
+b32encode	venv/lib/python3.4/base64.py	/^def b32encode(s):$/;"	kind:function	line:144
+b32decode	venv/lib/python3.4/base64.py	/^def b32decode(s, casefold=False, map01=None):$/;"	kind:function	line:184
+b16encode	venv/lib/python3.4/base64.py	/^def b16encode(s):$/;"	kind:function	line:259
+b16decode	venv/lib/python3.4/base64.py	/^def b16decode(s, casefold=False):$/;"	kind:function	line:267
+_a85chars	venv/lib/python3.4/base64.py	/^_a85chars = None$/;"	kind:variable	line:289
+_a85chars2	venv/lib/python3.4/base64.py	/^_a85chars2 = None$/;"	kind:variable	line:290
+_A85START	venv/lib/python3.4/base64.py	/^_A85START = b"<~"$/;"	kind:variable	line:291
+_A85END	venv/lib/python3.4/base64.py	/^_A85END = b"~>"$/;"	kind:variable	line:292
+_85encode	venv/lib/python3.4/base64.py	/^def _85encode(b, chars, chars2, pad=False, foldnuls=False, foldspaces=False):$/;"	kind:function	line:294
+a85encode	venv/lib/python3.4/base64.py	/^def a85encode(b, *, foldspaces=False, wrapcol=0, pad=False, adobe=False):$/;"	kind:function	line:318
+a85decode	venv/lib/python3.4/base64.py	/^def a85decode(b, *, foldspaces=False, adobe=False, ignorechars=b' \\t\\n\\r\\v'):$/;"	kind:function	line:361
+_b85alphabet	venv/lib/python3.4/base64.py	/^_b85alphabet = (b"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"$/;"	kind:variable	line:428
+_b85chars	venv/lib/python3.4/base64.py	/^_b85chars = None$/;"	kind:variable	line:430
+_b85chars2	venv/lib/python3.4/base64.py	/^_b85chars2 = None$/;"	kind:variable	line:431
+_b85dec	venv/lib/python3.4/base64.py	/^_b85dec = None$/;"	kind:variable	line:432
+b85encode	venv/lib/python3.4/base64.py	/^def b85encode(b, pad=False):$/;"	kind:function	line:434
+b85decode	venv/lib/python3.4/base64.py	/^def b85decode(b):$/;"	kind:function	line:448
+MAXLINESIZE	venv/lib/python3.4/base64.py	/^MAXLINESIZE = 76 # Excluding the CRLF$/;"	kind:variable	line:490
+MAXBINSIZE	venv/lib/python3.4/base64.py	/^MAXBINSIZE = (MAXLINESIZE\/\/4)*3$/;"	kind:variable	line:491
+encode	venv/lib/python3.4/base64.py	/^def encode(input, output):$/;"	kind:function	line:493
+decode	venv/lib/python3.4/base64.py	/^def decode(input, output):$/;"	kind:function	line:508
+_input_type_check	venv/lib/python3.4/base64.py	/^def _input_type_check(s):$/;"	kind:function	line:517
+encodebytes	venv/lib/python3.4/base64.py	/^def encodebytes(s):$/;"	kind:function	line:533
+encodestring	venv/lib/python3.4/base64.py	/^def encodestring(s):$/;"	kind:function	line:543
+warnings	venv/lib/python3.4/base64.py	/^    import warnings$/;"	kind:namespace	line:545
+decodebytes	venv/lib/python3.4/base64.py	/^def decodebytes(s):$/;"	kind:function	line:551
+decodestring	venv/lib/python3.4/base64.py	/^def decodestring(s):$/;"	kind:function	line:556
+warnings	venv/lib/python3.4/base64.py	/^    import warnings$/;"	kind:namespace	line:558
+main	venv/lib/python3.4/base64.py	/^def main():$/;"	kind:function	line:565
+sys	venv/lib/python3.4/base64.py	/^    import sys, getopt$/;"	kind:namespace	line:567
+getopt	venv/lib/python3.4/base64.py	/^    import sys, getopt$/;"	kind:namespace	line:567
+test	venv/lib/python3.4/base64.py	/^def test():$/;"	kind:function	line:591
+bisect.py	venv/lib/python3.4/bisect.py	1;"	kind:file	line:1
+insort_right	venv/lib/python3.4/bisect.py	/^def insort_right(a, x, lo=0, hi=None):$/;"	kind:function	line:3
+insort	venv/lib/python3.4/bisect.py	/^insort = insort_right   # backward compatibility$/;"	kind:variable	line:22
+bisect_right	venv/lib/python3.4/bisect.py	/^def bisect_right(a, x, lo=0, hi=None):$/;"	kind:function	line:24
+bisect	venv/lib/python3.4/bisect.py	/^bisect = bisect_right   # backward compatibility$/;"	kind:variable	line:45
+insort_left	venv/lib/python3.4/bisect.py	/^def insort_left(a, x, lo=0, hi=None):$/;"	kind:function	line:47
+bisect_left	venv/lib/python3.4/bisect.py	/^def bisect_left(a, x, lo=0, hi=None):$/;"	kind:function	line:67
+codecs.py	venv/lib/python3.4/codecs.py	1;"	kind:file	line:1
+builtins	venv/lib/python3.4/codecs.py	/^import builtins, sys$/;"	kind:namespace	line:10
+sys	venv/lib/python3.4/codecs.py	/^import builtins, sys$/;"	kind:namespace	line:10
+__all__	venv/lib/python3.4/codecs.py	/^__all__ = ["register", "lookup", "open", "EncodedFile", "BOM", "BOM_BE",$/;"	kind:variable	line:19
+BOM_UTF8	venv/lib/python3.4/codecs.py	/^BOM_UTF8 = b'\\xef\\xbb\\xbf'$/;"	kind:variable	line:42
+BOM_UTF32_LE	venv/lib/python3.4/codecs.py	/^BOM_UTF32_LE = b'\\xff\\xfe\\x00\\x00'$/;"	kind:variable	line:51
+BOM_UTF32_BE	venv/lib/python3.4/codecs.py	/^BOM_UTF32_BE = b'\\x00\\x00\\xfe\\xff'$/;"	kind:variable	line:54
+BOM_UTF32	venv/lib/python3.4/codecs.py	/^    BOM_UTF32 = BOM_UTF32_LE$/;"	kind:variable	line:62
+BOM_UTF32	venv/lib/python3.4/codecs.py	/^    BOM_UTF32 = BOM_UTF32_BE$/;"	kind:variable	line:70
+BOM32_LE	venv/lib/python3.4/codecs.py	/^BOM32_LE = BOM_UTF16_LE$/;"	kind:variable	line:73
+BOM32_BE	venv/lib/python3.4/codecs.py	/^BOM32_BE = BOM_UTF16_BE$/;"	kind:variable	line:74
+BOM64_LE	venv/lib/python3.4/codecs.py	/^BOM64_LE = BOM_UTF32_LE$/;"	kind:variable	line:75
+BOM64_BE	venv/lib/python3.4/codecs.py	/^BOM64_BE = BOM_UTF32_BE$/;"	kind:variable	line:76
+CodecInfo	venv/lib/python3.4/codecs.py	/^class CodecInfo(tuple):$/;"	kind:class	line:81
+_is_text_encoding	venv/lib/python3.4/codecs.py	/^    _is_text_encoding = True # Assume codecs are text encodings by default$/;"	kind:variable	line:90
+__new__	venv/lib/python3.4/codecs.py	/^    def __new__(cls, encode, decode, streamreader=None, streamwriter=None,$/;"	kind:member	line:92
+__repr__	venv/lib/python3.4/codecs.py	/^    def __repr__(self):$/;"	kind:member	line:107
+Codec	venv/lib/python3.4/codecs.py	/^class Codec:$/;"	kind:class	line:112
+encode	venv/lib/python3.4/codecs.py	/^    def encode(self, input, errors='strict'):$/;"	kind:member	line:135
+decode	venv/lib/python3.4/codecs.py	/^    def decode(self, input, errors='strict'):$/;"	kind:member	line:154
+IncrementalEncoder	venv/lib/python3.4/codecs.py	/^class IncrementalEncoder(object):$/;"	kind:class	line:177
+__init__	venv/lib/python3.4/codecs.py	/^    def __init__(self, errors='strict'):$/;"	kind:member	line:183
+encode	venv/lib/python3.4/codecs.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:194
+reset	venv/lib/python3.4/codecs.py	/^    def reset(self):$/;"	kind:member	line:200
+getstate	venv/lib/python3.4/codecs.py	/^    def getstate(self):$/;"	kind:member	line:205
+setstate	venv/lib/python3.4/codecs.py	/^    def setstate(self, state):$/;"	kind:member	line:211
+BufferedIncrementalEncoder	venv/lib/python3.4/codecs.py	/^class BufferedIncrementalEncoder(IncrementalEncoder):$/;"	kind:class	line:217
+__init__	venv/lib/python3.4/codecs.py	/^    def __init__(self, errors='strict'):$/;"	kind:member	line:223
+_buffer_encode	venv/lib/python3.4/codecs.py	/^    def _buffer_encode(self, input, errors, final):$/;"	kind:member	line:228
+encode	venv/lib/python3.4/codecs.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:233
+reset	venv/lib/python3.4/codecs.py	/^    def reset(self):$/;"	kind:member	line:241
+getstate	venv/lib/python3.4/codecs.py	/^    def getstate(self):$/;"	kind:member	line:245
+setstate	venv/lib/python3.4/codecs.py	/^    def setstate(self, state):$/;"	kind:member	line:248
+IncrementalDecoder	venv/lib/python3.4/codecs.py	/^class IncrementalDecoder(object):$/;"	kind:class	line:251
+__init__	venv/lib/python3.4/codecs.py	/^    def __init__(self, errors='strict'):$/;"	kind:member	line:257
+decode	venv/lib/python3.4/codecs.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:267
+reset	venv/lib/python3.4/codecs.py	/^    def reset(self):$/;"	kind:member	line:273
+getstate	venv/lib/python3.4/codecs.py	/^    def getstate(self):$/;"	kind:member	line:278
+setstate	venv/lib/python3.4/codecs.py	/^    def setstate(self, state):$/;"	kind:member	line:292
+BufferedIncrementalDecoder	venv/lib/python3.4/codecs.py	/^class BufferedIncrementalDecoder(IncrementalDecoder):$/;"	kind:class	line:300
+__init__	venv/lib/python3.4/codecs.py	/^    def __init__(self, errors='strict'):$/;"	kind:member	line:306
+_buffer_decode	venv/lib/python3.4/codecs.py	/^    def _buffer_decode(self, input, errors, final):$/;"	kind:member	line:311
+decode	venv/lib/python3.4/codecs.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:316
+reset	venv/lib/python3.4/codecs.py	/^    def reset(self):$/;"	kind:member	line:324
+getstate	venv/lib/python3.4/codecs.py	/^    def getstate(self):$/;"	kind:member	line:328
+setstate	venv/lib/python3.4/codecs.py	/^    def setstate(self, state):$/;"	kind:member	line:332
+StreamWriter	venv/lib/python3.4/codecs.py	/^class StreamWriter(Codec):$/;"	kind:class	line:343
+__init__	venv/lib/python3.4/codecs.py	/^    def __init__(self, stream, errors='strict'):$/;"	kind:member	line:345
+write	venv/lib/python3.4/codecs.py	/^    def write(self, object):$/;"	kind:member	line:369
+writelines	venv/lib/python3.4/codecs.py	/^    def writelines(self, list):$/;"	kind:member	line:376
+reset	venv/lib/python3.4/codecs.py	/^    def reset(self):$/;"	kind:member	line:383
+seek	venv/lib/python3.4/codecs.py	/^    def seek(self, offset, whence=0):$/;"	kind:member	line:395
+__getattr__	venv/lib/python3.4/codecs.py	/^    def __getattr__(self, name,$/;"	kind:member	line:400
+__enter__	venv/lib/python3.4/codecs.py	/^    def __enter__(self):$/;"	kind:member	line:407
+__exit__	venv/lib/python3.4/codecs.py	/^    def __exit__(self, type, value, tb):$/;"	kind:member	line:410
+StreamReader	venv/lib/python3.4/codecs.py	/^class StreamReader(Codec):$/;"	kind:class	line:415
+charbuffertype	venv/lib/python3.4/codecs.py	/^    charbuffertype = str$/;"	kind:variable	line:417
+__init__	venv/lib/python3.4/codecs.py	/^    def __init__(self, stream, errors='strict'):$/;"	kind:member	line:419
+decode	venv/lib/python3.4/codecs.py	/^    def decode(self, input, errors='strict'):$/;"	kind:member	line:443
+read	venv/lib/python3.4/codecs.py	/^    def read(self, size=-1, chars=-1, firstline=False):$/;"	kind:member	line:446
+readline	venv/lib/python3.4/codecs.py	/^    def readline(self, size=None, keepends=True):$/;"	kind:member	line:524
+readlines	venv/lib/python3.4/codecs.py	/^    def readlines(self, sizehint=None, keepends=True):$/;"	kind:member	line:599
+reset	venv/lib/python3.4/codecs.py	/^    def reset(self):$/;"	kind:member	line:614
+seek	venv/lib/python3.4/codecs.py	/^    def seek(self, offset, whence=0):$/;"	kind:member	line:627
+__next__	venv/lib/python3.4/codecs.py	/^    def __next__(self):$/;"	kind:member	line:635
+__iter__	venv/lib/python3.4/codecs.py	/^    def __iter__(self):$/;"	kind:member	line:643
+__getattr__	venv/lib/python3.4/codecs.py	/^    def __getattr__(self, name,$/;"	kind:member	line:646
+__enter__	venv/lib/python3.4/codecs.py	/^    def __enter__(self):$/;"	kind:member	line:653
+__exit__	venv/lib/python3.4/codecs.py	/^    def __exit__(self, type, value, tb):$/;"	kind:member	line:656
+StreamReaderWriter	venv/lib/python3.4/codecs.py	/^class StreamReaderWriter:$/;"	kind:class	line:661
+encoding	venv/lib/python3.4/codecs.py	/^    encoding = 'unknown'$/;"	kind:variable	line:672
+__init__	venv/lib/python3.4/codecs.py	/^    def __init__(self, stream, Reader, Writer, errors='strict'):$/;"	kind:member	line:674
+read	venv/lib/python3.4/codecs.py	/^    def read(self, size=-1):$/;"	kind:member	line:692
+readline	venv/lib/python3.4/codecs.py	/^    def readline(self, size=None):$/;"	kind:member	line:696
+readlines	venv/lib/python3.4/codecs.py	/^    def readlines(self, sizehint=None):$/;"	kind:member	line:700
+__next__	venv/lib/python3.4/codecs.py	/^    def __next__(self):$/;"	kind:member	line:704
+__iter__	venv/lib/python3.4/codecs.py	/^    def __iter__(self):$/;"	kind:member	line:709
+write	venv/lib/python3.4/codecs.py	/^    def write(self, data):$/;"	kind:member	line:712
+writelines	venv/lib/python3.4/codecs.py	/^    def writelines(self, list):$/;"	kind:member	line:716
+reset	venv/lib/python3.4/codecs.py	/^    def reset(self):$/;"	kind:member	line:720
+seek	venv/lib/python3.4/codecs.py	/^    def seek(self, offset, whence=0):$/;"	kind:member	line:725
+__getattr__	venv/lib/python3.4/codecs.py	/^    def __getattr__(self, name,$/;"	kind:member	line:731
+__enter__	venv/lib/python3.4/codecs.py	/^    def __enter__(self):$/;"	kind:member	line:740
+__exit__	venv/lib/python3.4/codecs.py	/^    def __exit__(self, type, value, tb):$/;"	kind:member	line:743
+StreamRecoder	venv/lib/python3.4/codecs.py	/^class StreamRecoder:$/;"	kind:class	line:748
+data_encoding	venv/lib/python3.4/codecs.py	/^    data_encoding = 'unknown'$/;"	kind:variable	line:765
+file_encoding	venv/lib/python3.4/codecs.py	/^    file_encoding = 'unknown'$/;"	kind:variable	line:766
+__init__	venv/lib/python3.4/codecs.py	/^    def __init__(self, stream, encode, decode, Reader, Writer,$/;"	kind:member	line:768
+read	venv/lib/python3.4/codecs.py	/^    def read(self, size=-1):$/;"	kind:member	line:796
+readline	venv/lib/python3.4/codecs.py	/^    def readline(self, size=None):$/;"	kind:member	line:802
+readlines	venv/lib/python3.4/codecs.py	/^    def readlines(self, sizehint=None):$/;"	kind:member	line:811
+__next__	venv/lib/python3.4/codecs.py	/^    def __next__(self):$/;"	kind:member	line:817
+__iter__	venv/lib/python3.4/codecs.py	/^    def __iter__(self):$/;"	kind:member	line:824
+write	venv/lib/python3.4/codecs.py	/^    def write(self, data):$/;"	kind:member	line:827
+writelines	venv/lib/python3.4/codecs.py	/^    def writelines(self, list):$/;"	kind:member	line:832
+reset	venv/lib/python3.4/codecs.py	/^    def reset(self):$/;"	kind:member	line:838
+__getattr__	venv/lib/python3.4/codecs.py	/^    def __getattr__(self, name,$/;"	kind:member	line:843
+__enter__	venv/lib/python3.4/codecs.py	/^    def __enter__(self):$/;"	kind:member	line:850
+__exit__	venv/lib/python3.4/codecs.py	/^    def __exit__(self, type, value, tb):$/;"	kind:member	line:853
+open	venv/lib/python3.4/codecs.py	/^def open(filename, mode='r', encoding=None, errors='strict', buffering=1):$/;"	kind:function	line:858
+EncodedFile	venv/lib/python3.4/codecs.py	/^def EncodedFile(file, data_encoding, file_encoding=None, errors='strict'):$/;"	kind:function	line:900
+getencoder	venv/lib/python3.4/codecs.py	/^def getencoder(encoding):$/;"	kind:function	line:938
+getdecoder	venv/lib/python3.4/codecs.py	/^def getdecoder(encoding):$/;"	kind:function	line:948
+getincrementalencoder	venv/lib/python3.4/codecs.py	/^def getincrementalencoder(encoding):$/;"	kind:function	line:958
+getincrementaldecoder	venv/lib/python3.4/codecs.py	/^def getincrementaldecoder(encoding):$/;"	kind:function	line:972
+getreader	venv/lib/python3.4/codecs.py	/^def getreader(encoding):$/;"	kind:function	line:986
+getwriter	venv/lib/python3.4/codecs.py	/^def getwriter(encoding):$/;"	kind:function	line:996
+iterencode	venv/lib/python3.4/codecs.py	/^def iterencode(iterator, encoding, errors='strict', **kwargs):$/;"	kind:function	line:1006
+iterdecode	venv/lib/python3.4/codecs.py	/^def iterdecode(iterator, encoding, errors='strict', **kwargs):$/;"	kind:function	line:1024
+make_identity_dict	venv/lib/python3.4/codecs.py	/^def make_identity_dict(rng):$/;"	kind:function	line:1044
+make_encoding_map	venv/lib/python3.4/codecs.py	/^def make_encoding_map(decoding_map):$/;"	kind:function	line:1054
+strict_errors	venv/lib/python3.4/codecs.py	/^    strict_errors = lookup_error("strict")$/;"	kind:variable	line:1078
+ignore_errors	venv/lib/python3.4/codecs.py	/^    ignore_errors = lookup_error("ignore")$/;"	kind:variable	line:1079
+replace_errors	venv/lib/python3.4/codecs.py	/^    replace_errors = lookup_error("replace")$/;"	kind:variable	line:1080
+xmlcharrefreplace_errors	venv/lib/python3.4/codecs.py	/^    xmlcharrefreplace_errors = lookup_error("xmlcharrefreplace")$/;"	kind:variable	line:1081
+backslashreplace_errors	venv/lib/python3.4/codecs.py	/^    backslashreplace_errors = lookup_error("backslashreplace")$/;"	kind:variable	line:1082
+strict_errors	venv/lib/python3.4/codecs.py	/^    strict_errors = None$/;"	kind:variable	line:1085
+ignore_errors	venv/lib/python3.4/codecs.py	/^    ignore_errors = None$/;"	kind:variable	line:1086
+replace_errors	venv/lib/python3.4/codecs.py	/^    replace_errors = None$/;"	kind:variable	line:1087
+xmlcharrefreplace_errors	venv/lib/python3.4/codecs.py	/^    xmlcharrefreplace_errors = None$/;"	kind:variable	line:1088
+backslashreplace_errors	venv/lib/python3.4/codecs.py	/^    backslashreplace_errors = None$/;"	kind:variable	line:1089
+_false	venv/lib/python3.4/codecs.py	/^_false = 0$/;"	kind:variable	line:1093
+encodings	venv/lib/python3.4/codecs.py	/^    import encodings$/;"	kind:namespace	line:1095
+abc.py	venv/lib/python3.4/collections/abc.py	1;"	kind:file	line:1
+__all__	venv/lib/python3.4/collections/abc.py	/^from _collections_abc import __all__$/;"	kind:namespace	line:2
+__init__.py	venv/lib/python3.4/collections/__init__.py	1;"	kind:file	line:1
+__all__	venv/lib/python3.4/collections/__init__.py	/^__all__ = ['deque', 'defaultdict', 'namedtuple', 'UserDict', 'UserList',$/;"	kind:variable	line:1
+_collections_abc	venv/lib/python3.4/collections/__init__.py	/^import _collections_abc$/;"	kind:namespace	line:7
+deque	venv/lib/python3.4/collections/__init__.py	/^from _collections import deque, defaultdict$/;"	kind:namespace	line:10
+defaultdict	venv/lib/python3.4/collections/__init__.py	/^from _collections import deque, defaultdict$/;"	kind:namespace	line:10
+_itemgetter	venv/lib/python3.4/collections/__init__.py	/^from operator import itemgetter as _itemgetter, eq as _eq$/;"	kind:namespace	line:11
+_eq	venv/lib/python3.4/collections/__init__.py	/^from operator import itemgetter as _itemgetter, eq as _eq$/;"	kind:namespace	line:11
+_iskeyword	venv/lib/python3.4/collections/__init__.py	/^from keyword import iskeyword as _iskeyword$/;"	kind:namespace	line:12
+_sys	venv/lib/python3.4/collections/__init__.py	/^import sys as _sys$/;"	kind:namespace	line:13
+_heapq	venv/lib/python3.4/collections/__init__.py	/^import heapq as _heapq$/;"	kind:namespace	line:14
+_proxy	venv/lib/python3.4/collections/__init__.py	/^from _weakref import proxy as _proxy$/;"	kind:namespace	line:15
+_repeat	venv/lib/python3.4/collections/__init__.py	/^from itertools import repeat as _repeat, chain as _chain, starmap as _starmap$/;"	kind:namespace	line:16
+_chain	venv/lib/python3.4/collections/__init__.py	/^from itertools import repeat as _repeat, chain as _chain, starmap as _starmap$/;"	kind:namespace	line:16
+_starmap	venv/lib/python3.4/collections/__init__.py	/^from itertools import repeat as _repeat, chain as _chain, starmap as _starmap$/;"	kind:namespace	line:16
+_recursive_repr	venv/lib/python3.4/collections/__init__.py	/^from reprlib import recursive_repr as _recursive_repr$/;"	kind:namespace	line:17
+_Link	venv/lib/python3.4/collections/__init__.py	/^class _Link(object):$/;"	kind:class	line:23
+__slots__	venv/lib/python3.4/collections/__init__.py	/^    __slots__ = 'prev', 'next', 'key', '__weakref__'$/;"	kind:variable	line:24
+OrderedDict	venv/lib/python3.4/collections/__init__.py	/^class OrderedDict(dict):$/;"	kind:class	line:26
+__init__	venv/lib/python3.4/collections/__init__.py	/^    def __init__(*args, **kwds):$/;"	kind:member	line:41
+__setitem__	venv/lib/python3.4/collections/__init__.py	/^    def __setitem__(self, key, value,$/;"	kind:member	line:62
+__delitem__	venv/lib/python3.4/collections/__init__.py	/^    def __delitem__(self, key, dict_delitem=dict.__delitem__):$/;"	kind:member	line:76
+__iter__	venv/lib/python3.4/collections/__init__.py	/^    def __iter__(self):$/;"	kind:member	line:87
+__reversed__	venv/lib/python3.4/collections/__init__.py	/^    def __reversed__(self):$/;"	kind:member	line:96
+clear	venv/lib/python3.4/collections/__init__.py	/^    def clear(self):$/;"	kind:member	line:105
+popitem	venv/lib/python3.4/collections/__init__.py	/^    def popitem(self, last=True):$/;"	kind:member	line:112
+move_to_end	venv/lib/python3.4/collections/__init__.py	/^    def move_to_end(self, key, last=True):$/;"	kind:member	line:135
+__sizeof__	venv/lib/python3.4/collections/__init__.py	/^    def __sizeof__(self):$/;"	kind:member	line:159
+keys	venv/lib/python3.4/collections/__init__.py	/^    keys = MutableMapping.keys$/;"	kind:variable	line:169
+values	venv/lib/python3.4/collections/__init__.py	/^    values = MutableMapping.values$/;"	kind:variable	line:170
+items	venv/lib/python3.4/collections/__init__.py	/^    items = MutableMapping.items$/;"	kind:variable	line:171
+__ne__	venv/lib/python3.4/collections/__init__.py	/^    __ne__ = MutableMapping.__ne__$/;"	kind:variable	line:172
+__marker	venv/lib/python3.4/collections/__init__.py	/^    __marker = object()$/;"	kind:variable	line:174
+pop	venv/lib/python3.4/collections/__init__.py	/^    def pop(self, key, default=__marker):$/;"	kind:member	line:176
+setdefault	venv/lib/python3.4/collections/__init__.py	/^    def setdefault(self, key, default=None):$/;"	kind:member	line:190
+__repr__	venv/lib/python3.4/collections/__init__.py	/^    def __repr__(self):$/;"	kind:member	line:198
+__reduce__	venv/lib/python3.4/collections/__init__.py	/^    def __reduce__(self):$/;"	kind:member	line:204
+copy	venv/lib/python3.4/collections/__init__.py	/^    def copy(self):$/;"	kind:member	line:211
+fromkeys	venv/lib/python3.4/collections/__init__.py	/^    def fromkeys(cls, iterable, value=None):$/;"	kind:member	line:216
+__eq__	venv/lib/python3.4/collections/__init__.py	/^    def __eq__(self, other):$/;"	kind:member	line:226
+namedtuple	venv/lib/python3.4/collections/__init__.py	/^def namedtuple(typename, field_names, verbose=False, rename=False):$/;"	kind:function	line:301
+_count_elements	venv/lib/python3.4/collections/__init__.py	/^def _count_elements(mapping, iterable):$/;"	kind:function	line:395
+_count_elements	venv/lib/python3.4/collections/__init__.py	/^    from _collections import _count_elements$/;"	kind:namespace	line:402
+Counter	venv/lib/python3.4/collections/__init__.py	/^class Counter(dict):$/;"	kind:class	line:406
+__init__	venv/lib/python3.4/collections/__init__.py	/^    def __init__(*args, **kwds):$/;"	kind:member	line:457
+__missing__	venv/lib/python3.4/collections/__init__.py	/^    def __missing__(self, key):$/;"	kind:member	line:477
+most_common	venv/lib/python3.4/collections/__init__.py	/^    def most_common(self, n=None):$/;"	kind:member	line:482
+elements	venv/lib/python3.4/collections/__init__.py	/^    def elements(self):$/;"	kind:member	line:495
+fromkeys	venv/lib/python3.4/collections/__init__.py	/^    def fromkeys(cls, iterable, v=None):$/;"	kind:member	line:520
+update	venv/lib/python3.4/collections/__init__.py	/^    def update(*args, **kwds):$/;"	kind:member	line:526
+subtract	venv/lib/python3.4/collections/__init__.py	/^    def subtract(*args, **kwds):$/;"	kind:member	line:566
+copy	venv/lib/python3.4/collections/__init__.py	/^    def copy(self):$/;"	kind:member	line:600
+__reduce__	venv/lib/python3.4/collections/__init__.py	/^    def __reduce__(self):$/;"	kind:member	line:604
+__delitem__	venv/lib/python3.4/collections/__init__.py	/^    def __delitem__(self, elem):$/;"	kind:member	line:607
+__repr__	venv/lib/python3.4/collections/__init__.py	/^    def __repr__(self):$/;"	kind:member	line:612
+__add__	venv/lib/python3.4/collections/__init__.py	/^    def __add__(self, other):$/;"	kind:member	line:631
+__sub__	venv/lib/python3.4/collections/__init__.py	/^    def __sub__(self, other):$/;"	kind:member	line:650
+__or__	venv/lib/python3.4/collections/__init__.py	/^    def __or__(self, other):$/;"	kind:member	line:669
+__and__	venv/lib/python3.4/collections/__init__.py	/^    def __and__(self, other):$/;"	kind:member	line:689
+__pos__	venv/lib/python3.4/collections/__init__.py	/^    def __pos__(self):$/;"	kind:member	line:706
+__neg__	venv/lib/python3.4/collections/__init__.py	/^    def __neg__(self):$/;"	kind:member	line:710
+_keep_positive	venv/lib/python3.4/collections/__init__.py	/^    def _keep_positive(self):$/;"	kind:member	line:717
+__iadd__	venv/lib/python3.4/collections/__init__.py	/^    def __iadd__(self, other):$/;"	kind:member	line:724
+__isub__	venv/lib/python3.4/collections/__init__.py	/^    def __isub__(self, other):$/;"	kind:member	line:737
+__ior__	venv/lib/python3.4/collections/__init__.py	/^    def __ior__(self, other):$/;"	kind:member	line:750
+__iand__	venv/lib/python3.4/collections/__init__.py	/^    def __iand__(self, other):$/;"	kind:member	line:765
+ChainMap	venv/lib/python3.4/collections/__init__.py	/^class ChainMap(MutableMapping):$/;"	kind:class	line:785
+__init__	venv/lib/python3.4/collections/__init__.py	/^    def __init__(self, *maps):$/;"	kind:member	line:798
+__missing__	venv/lib/python3.4/collections/__init__.py	/^    def __missing__(self, key):$/;"	kind:member	line:805
+__getitem__	venv/lib/python3.4/collections/__init__.py	/^    def __getitem__(self, key):$/;"	kind:member	line:808
+get	venv/lib/python3.4/collections/__init__.py	/^    def get(self, key, default=None):$/;"	kind:member	line:816
+__len__	venv/lib/python3.4/collections/__init__.py	/^    def __len__(self):$/;"	kind:member	line:819
+__iter__	venv/lib/python3.4/collections/__init__.py	/^    def __iter__(self):$/;"	kind:member	line:822
+__contains__	venv/lib/python3.4/collections/__init__.py	/^    def __contains__(self, key):$/;"	kind:member	line:825
+__bool__	venv/lib/python3.4/collections/__init__.py	/^    def __bool__(self):$/;"	kind:member	line:828
+__repr__	venv/lib/python3.4/collections/__init__.py	/^    def __repr__(self):$/;"	kind:member	line:832
+fromkeys	venv/lib/python3.4/collections/__init__.py	/^    def fromkeys(cls, iterable, *args):$/;"	kind:member	line:837
+copy	venv/lib/python3.4/collections/__init__.py	/^    def copy(self):$/;"	kind:member	line:841
+__copy__	venv/lib/python3.4/collections/__init__.py	/^    __copy__ = copy$/;"	kind:variable	line:845
+new_child	venv/lib/python3.4/collections/__init__.py	/^    def new_child(self, m=None):                # like Django's Context.push()$/;"	kind:member	line:847
+parents	venv/lib/python3.4/collections/__init__.py	/^    def parents(self):                          # like Django's Context.pop()$/;"	kind:member	line:857
+__setitem__	venv/lib/python3.4/collections/__init__.py	/^    def __setitem__(self, key, value):$/;"	kind:member	line:861
+__delitem__	venv/lib/python3.4/collections/__init__.py	/^    def __delitem__(self, key):$/;"	kind:member	line:864
+popitem	venv/lib/python3.4/collections/__init__.py	/^    def popitem(self):$/;"	kind:member	line:870
+pop	venv/lib/python3.4/collections/__init__.py	/^    def pop(self, key, *args):$/;"	kind:member	line:877
+clear	venv/lib/python3.4/collections/__init__.py	/^    def clear(self):$/;"	kind:member	line:884
+UserDict	venv/lib/python3.4/collections/__init__.py	/^class UserDict(MutableMapping):$/;"	kind:class	line:893
+__init__	venv/lib/python3.4/collections/__init__.py	/^    def __init__(self, dict=None, **kwargs):$/;"	kind:member	line:896
+__len__	venv/lib/python3.4/collections/__init__.py	/^    def __len__(self): return len(self.data)$/;"	kind:member	line:902
+__getitem__	venv/lib/python3.4/collections/__init__.py	/^    def __getitem__(self, key):$/;"	kind:member	line:903
+__setitem__	venv/lib/python3.4/collections/__init__.py	/^    def __setitem__(self, key, item): self.data[key] = item$/;"	kind:member	line:909
+__delitem__	venv/lib/python3.4/collections/__init__.py	/^    def __delitem__(self, key): del self.data[key]$/;"	kind:member	line:910
+__iter__	venv/lib/python3.4/collections/__init__.py	/^    def __iter__(self):$/;"	kind:member	line:911
+__contains__	venv/lib/python3.4/collections/__init__.py	/^    def __contains__(self, key):$/;"	kind:member	line:915
+__repr__	venv/lib/python3.4/collections/__init__.py	/^    def __repr__(self): return repr(self.data)$/;"	kind:member	line:919
+copy	venv/lib/python3.4/collections/__init__.py	/^    def copy(self):$/;"	kind:member	line:920
+copy	venv/lib/python3.4/collections/__init__.py	/^        import copy$/;"	kind:namespace	line:923
+fromkeys	venv/lib/python3.4/collections/__init__.py	/^    def fromkeys(cls, iterable, value=None):$/;"	kind:member	line:933
+UserList	venv/lib/python3.4/collections/__init__.py	/^class UserList(MutableSequence):$/;"	kind:class	line:945
+__init__	venv/lib/python3.4/collections/__init__.py	/^    def __init__(self, initlist=None):$/;"	kind:member	line:947
+__repr__	venv/lib/python3.4/collections/__init__.py	/^    def __repr__(self): return repr(self.data)$/;"	kind:member	line:957
+__lt__	venv/lib/python3.4/collections/__init__.py	/^    def __lt__(self, other): return self.data <  self.__cast(other)$/;"	kind:member	line:958
+__le__	venv/lib/python3.4/collections/__init__.py	/^    def __le__(self, other): return self.data <= self.__cast(other)$/;"	kind:member	line:959
+__eq__	venv/lib/python3.4/collections/__init__.py	/^    def __eq__(self, other): return self.data == self.__cast(other)$/;"	kind:member	line:960
+__ne__	venv/lib/python3.4/collections/__init__.py	/^    def __ne__(self, other): return self.data != self.__cast(other)$/;"	kind:member	line:961
+__gt__	venv/lib/python3.4/collections/__init__.py	/^    def __gt__(self, other): return self.data >  self.__cast(other)$/;"	kind:member	line:962
+__ge__	venv/lib/python3.4/collections/__init__.py	/^    def __ge__(self, other): return self.data >= self.__cast(other)$/;"	kind:member	line:963
+__cast	venv/lib/python3.4/collections/__init__.py	/^    def __cast(self, other):$/;"	kind:member	line:964
+__contains__	venv/lib/python3.4/collections/__init__.py	/^    def __contains__(self, item): return item in self.data$/;"	kind:member	line:966
+__len__	venv/lib/python3.4/collections/__init__.py	/^    def __len__(self): return len(self.data)$/;"	kind:member	line:967
+__getitem__	venv/lib/python3.4/collections/__init__.py	/^    def __getitem__(self, i): return self.data[i]$/;"	kind:member	line:968
+__setitem__	venv/lib/python3.4/collections/__init__.py	/^    def __setitem__(self, i, item): self.data[i] = item$/;"	kind:member	line:969
+__delitem__	venv/lib/python3.4/collections/__init__.py	/^    def __delitem__(self, i): del self.data[i]$/;"	kind:member	line:970
+__add__	venv/lib/python3.4/collections/__init__.py	/^    def __add__(self, other):$/;"	kind:member	line:971
+__radd__	venv/lib/python3.4/collections/__init__.py	/^    def __radd__(self, other):$/;"	kind:member	line:977
+__iadd__	venv/lib/python3.4/collections/__init__.py	/^    def __iadd__(self, other):$/;"	kind:member	line:983
+__mul__	venv/lib/python3.4/collections/__init__.py	/^    def __mul__(self, n):$/;"	kind:member	line:991
+__rmul__	venv/lib/python3.4/collections/__init__.py	/^    __rmul__ = __mul__$/;"	kind:variable	line:993
+__imul__	venv/lib/python3.4/collections/__init__.py	/^    def __imul__(self, n):$/;"	kind:member	line:994
+append	venv/lib/python3.4/collections/__init__.py	/^    def append(self, item): self.data.append(item)$/;"	kind:member	line:997
+insert	venv/lib/python3.4/collections/__init__.py	/^    def insert(self, i, item): self.data.insert(i, item)$/;"	kind:member	line:998
+pop	venv/lib/python3.4/collections/__init__.py	/^    def pop(self, i=-1): return self.data.pop(i)$/;"	kind:member	line:999
+remove	venv/lib/python3.4/collections/__init__.py	/^    def remove(self, item): self.data.remove(item)$/;"	kind:member	line:1000
+clear	venv/lib/python3.4/collections/__init__.py	/^    def clear(self): self.data.clear()$/;"	kind:member	line:1001
+copy	venv/lib/python3.4/collections/__init__.py	/^    def copy(self): return self.__class__(self)$/;"	kind:member	line:1002
+count	venv/lib/python3.4/collections/__init__.py	/^    def count(self, item): return self.data.count(item)$/;"	kind:member	line:1003
+index	venv/lib/python3.4/collections/__init__.py	/^    def index(self, item, *args): return self.data.index(item, *args)$/;"	kind:member	line:1004
+reverse	venv/lib/python3.4/collections/__init__.py	/^    def reverse(self): self.data.reverse()$/;"	kind:member	line:1005
+sort	venv/lib/python3.4/collections/__init__.py	/^    def sort(self, *args, **kwds): self.data.sort(*args, **kwds)$/;"	kind:member	line:1006
+extend	venv/lib/python3.4/collections/__init__.py	/^    def extend(self, other):$/;"	kind:member	line:1007
+UserString	venv/lib/python3.4/collections/__init__.py	/^class UserString(Sequence):$/;"	kind:class	line:1019
+__init__	venv/lib/python3.4/collections/__init__.py	/^    def __init__(self, seq):$/;"	kind:member	line:1020
+__str__	venv/lib/python3.4/collections/__init__.py	/^    def __str__(self): return str(self.data)$/;"	kind:member	line:1027
+__repr__	venv/lib/python3.4/collections/__init__.py	/^    def __repr__(self): return repr(self.data)$/;"	kind:member	line:1028
+__int__	venv/lib/python3.4/collections/__init__.py	/^    def __int__(self): return int(self.data)$/;"	kind:member	line:1029
+__float__	venv/lib/python3.4/collections/__init__.py	/^    def __float__(self): return float(self.data)$/;"	kind:member	line:1030
+__complex__	venv/lib/python3.4/collections/__init__.py	/^    def __complex__(self): return complex(self.data)$/;"	kind:member	line:1031
+__hash__	venv/lib/python3.4/collections/__init__.py	/^    def __hash__(self): return hash(self.data)$/;"	kind:member	line:1032
+__eq__	venv/lib/python3.4/collections/__init__.py	/^    def __eq__(self, string):$/;"	kind:member	line:1034
+__ne__	venv/lib/python3.4/collections/__init__.py	/^    def __ne__(self, string):$/;"	kind:member	line:1038
+__lt__	venv/lib/python3.4/collections/__init__.py	/^    def __lt__(self, string):$/;"	kind:member	line:1042
+__le__	venv/lib/python3.4/collections/__init__.py	/^    def __le__(self, string):$/;"	kind:member	line:1046
+__gt__	venv/lib/python3.4/collections/__init__.py	/^    def __gt__(self, string):$/;"	kind:member	line:1050
+__ge__	venv/lib/python3.4/collections/__init__.py	/^    def __ge__(self, string):$/;"	kind:member	line:1054
+__contains__	venv/lib/python3.4/collections/__init__.py	/^    def __contains__(self, char):$/;"	kind:member	line:1059
+__len__	venv/lib/python3.4/collections/__init__.py	/^    def __len__(self): return len(self.data)$/;"	kind:member	line:1064
+__getitem__	venv/lib/python3.4/collections/__init__.py	/^    def __getitem__(self, index): return self.__class__(self.data[index])$/;"	kind:member	line:1065
+__add__	venv/lib/python3.4/collections/__init__.py	/^    def __add__(self, other):$/;"	kind:member	line:1066
+__radd__	venv/lib/python3.4/collections/__init__.py	/^    def __radd__(self, other):$/;"	kind:member	line:1072
+__mul__	venv/lib/python3.4/collections/__init__.py	/^    def __mul__(self, n):$/;"	kind:member	line:1076
+__rmul__	venv/lib/python3.4/collections/__init__.py	/^    __rmul__ = __mul__$/;"	kind:variable	line:1078
+__mod__	venv/lib/python3.4/collections/__init__.py	/^    def __mod__(self, args):$/;"	kind:member	line:1079
+capitalize	venv/lib/python3.4/collections/__init__.py	/^    def capitalize(self): return self.__class__(self.data.capitalize())$/;"	kind:member	line:1083
+center	venv/lib/python3.4/collections/__init__.py	/^    def center(self, width, *args):$/;"	kind:member	line:1084
+count	venv/lib/python3.4/collections/__init__.py	/^    def count(self, sub, start=0, end=_sys.maxsize):$/;"	kind:member	line:1086
+encode	venv/lib/python3.4/collections/__init__.py	/^    def encode(self, encoding=None, errors=None): # XXX improve this?$/;"	kind:member	line:1090
+endswith	venv/lib/python3.4/collections/__init__.py	/^    def endswith(self, suffix, start=0, end=_sys.maxsize):$/;"	kind:member	line:1096
+expandtabs	venv/lib/python3.4/collections/__init__.py	/^    def expandtabs(self, tabsize=8):$/;"	kind:member	line:1098
+find	venv/lib/python3.4/collections/__init__.py	/^    def find(self, sub, start=0, end=_sys.maxsize):$/;"	kind:member	line:1100
+format	venv/lib/python3.4/collections/__init__.py	/^    def format(self, *args, **kwds):$/;"	kind:member	line:1104
+index	venv/lib/python3.4/collections/__init__.py	/^    def index(self, sub, start=0, end=_sys.maxsize):$/;"	kind:member	line:1106
+isalpha	venv/lib/python3.4/collections/__init__.py	/^    def isalpha(self): return self.data.isalpha()$/;"	kind:member	line:1108
+isalnum	venv/lib/python3.4/collections/__init__.py	/^    def isalnum(self): return self.data.isalnum()$/;"	kind:member	line:1109
+isdecimal	venv/lib/python3.4/collections/__init__.py	/^    def isdecimal(self): return self.data.isdecimal()$/;"	kind:member	line:1110
+isdigit	venv/lib/python3.4/collections/__init__.py	/^    def isdigit(self): return self.data.isdigit()$/;"	kind:member	line:1111
+isidentifier	venv/lib/python3.4/collections/__init__.py	/^    def isidentifier(self): return self.data.isidentifier()$/;"	kind:member	line:1112
+islower	venv/lib/python3.4/collections/__init__.py	/^    def islower(self): return self.data.islower()$/;"	kind:member	line:1113
+isnumeric	venv/lib/python3.4/collections/__init__.py	/^    def isnumeric(self): return self.data.isnumeric()$/;"	kind:member	line:1114
+isspace	venv/lib/python3.4/collections/__init__.py	/^    def isspace(self): return self.data.isspace()$/;"	kind:member	line:1115
+istitle	venv/lib/python3.4/collections/__init__.py	/^    def istitle(self): return self.data.istitle()$/;"	kind:member	line:1116
+isupper	venv/lib/python3.4/collections/__init__.py	/^    def isupper(self): return self.data.isupper()$/;"	kind:member	line:1117
+join	venv/lib/python3.4/collections/__init__.py	/^    def join(self, seq): return self.data.join(seq)$/;"	kind:member	line:1118
+ljust	venv/lib/python3.4/collections/__init__.py	/^    def ljust(self, width, *args):$/;"	kind:member	line:1119
+lower	venv/lib/python3.4/collections/__init__.py	/^    def lower(self): return self.__class__(self.data.lower())$/;"	kind:member	line:1121
+lstrip	venv/lib/python3.4/collections/__init__.py	/^    def lstrip(self, chars=None): return self.__class__(self.data.lstrip(chars))$/;"	kind:member	line:1122
+partition	venv/lib/python3.4/collections/__init__.py	/^    def partition(self, sep):$/;"	kind:member	line:1123
+replace	venv/lib/python3.4/collections/__init__.py	/^    def replace(self, old, new, maxsplit=-1):$/;"	kind:member	line:1125
+rfind	venv/lib/python3.4/collections/__init__.py	/^    def rfind(self, sub, start=0, end=_sys.maxsize):$/;"	kind:member	line:1131
+rindex	venv/lib/python3.4/collections/__init__.py	/^    def rindex(self, sub, start=0, end=_sys.maxsize):$/;"	kind:member	line:1135
+rjust	venv/lib/python3.4/collections/__init__.py	/^    def rjust(self, width, *args):$/;"	kind:member	line:1137
+rpartition	venv/lib/python3.4/collections/__init__.py	/^    def rpartition(self, sep):$/;"	kind:member	line:1139
+rstrip	venv/lib/python3.4/collections/__init__.py	/^    def rstrip(self, chars=None):$/;"	kind:member	line:1141
+split	venv/lib/python3.4/collections/__init__.py	/^    def split(self, sep=None, maxsplit=-1):$/;"	kind:member	line:1143
+rsplit	venv/lib/python3.4/collections/__init__.py	/^    def rsplit(self, sep=None, maxsplit=-1):$/;"	kind:member	line:1145
+splitlines	venv/lib/python3.4/collections/__init__.py	/^    def splitlines(self, keepends=False): return self.data.splitlines(keepends)$/;"	kind:member	line:1147
+startswith	venv/lib/python3.4/collections/__init__.py	/^    def startswith(self, prefix, start=0, end=_sys.maxsize):$/;"	kind:member	line:1148
+strip	venv/lib/python3.4/collections/__init__.py	/^    def strip(self, chars=None): return self.__class__(self.data.strip(chars))$/;"	kind:member	line:1150
+swapcase	venv/lib/python3.4/collections/__init__.py	/^    def swapcase(self): return self.__class__(self.data.swapcase())$/;"	kind:member	line:1151
+title	venv/lib/python3.4/collections/__init__.py	/^    def title(self): return self.__class__(self.data.title())$/;"	kind:member	line:1152
+translate	venv/lib/python3.4/collections/__init__.py	/^    def translate(self, *args):$/;"	kind:member	line:1153
+upper	venv/lib/python3.4/collections/__init__.py	/^    def upper(self): return self.__class__(self.data.upper())$/;"	kind:member	line:1155
+zfill	venv/lib/python3.4/collections/__init__.py	/^    def zfill(self, width): return self.__class__(self.data.zfill(width))$/;"	kind:member	line:1156
+__main__.py	venv/lib/python3.4/collections/__main__.py	1;"	kind:file	line:1
+namedtuple	venv/lib/python3.4/collections/__main__.py	/^from collections import namedtuple$/;"	kind:namespace	line:6
+loads	venv/lib/python3.4/collections/__main__.py	/^from pickle import loads, dumps$/;"	kind:namespace	line:7
+dumps	venv/lib/python3.4/collections/__main__.py	/^from pickle import loads, dumps$/;"	kind:namespace	line:7
+Point	venv/lib/python3.4/collections/__main__.py	/^Point = namedtuple('Point', 'x, y', True)$/;"	kind:variable	line:8
+p	venv/lib/python3.4/collections/__main__.py	/^p = Point(x=10, y=20)$/;"	kind:variable	line:9
+Point	venv/lib/python3.4/collections/__main__.py	/^class Point(namedtuple('Point', 'x y')):$/;"	kind:class	line:13
+__slots__	venv/lib/python3.4/collections/__main__.py	/^    __slots__ = ()$/;"	kind:variable	line:14
+hypot	venv/lib/python3.4/collections/__main__.py	/^    def hypot(self):$/;"	kind:member	line:16
+__str__	venv/lib/python3.4/collections/__main__.py	/^    def __str__(self):$/;"	kind:member	line:18
+Point	venv/lib/python3.4/collections/__main__.py	/^class Point(namedtuple('Point', 'x y')):$/;"	kind:class	line:24
+__slots__	venv/lib/python3.4/collections/__main__.py	/^    __slots__ = ()$/;"	kind:variable	line:26
+_make	venv/lib/python3.4/collections/__main__.py	/^    _make = classmethod(tuple.__new__)$/;"	kind:variable	line:27
+_replace	venv/lib/python3.4/collections/__main__.py	/^    def _replace(self, _map=map, **kwds):$/;"	kind:member	line:28
+Point3D	venv/lib/python3.4/collections/__main__.py	/^Point3D = namedtuple('Point3D', Point._fields + ('z',))$/;"	kind:variable	line:33
+doctest	venv/lib/python3.4/collections/__main__.py	/^import doctest, collections$/;"	kind:namespace	line:36
+collections	venv/lib/python3.4/collections/__main__.py	/^import doctest, collections$/;"	kind:namespace	line:36
+TestResults	venv/lib/python3.4/collections/__main__.py	/^TestResults = namedtuple('TestResults', 'failed attempted')$/;"	kind:variable	line:37
+python-config.py	venv/lib/python3.4/config-3.4m/python-config.py	1;"	kind:file	line:1
+getopt	venv/lib/python3.4/config-3.4m/python-config.py	/^import getopt$/;"	kind:namespace	line:6
+os	venv/lib/python3.4/config-3.4m/python-config.py	/^import os$/;"	kind:namespace	line:7
+sys	venv/lib/python3.4/config-3.4m/python-config.py	/^import sys$/;"	kind:namespace	line:8
+sysconfig	venv/lib/python3.4/config-3.4m/python-config.py	/^import sysconfig$/;"	kind:namespace	line:9
+valid_opts	venv/lib/python3.4/config-3.4m/python-config.py	/^valid_opts = ['prefix', 'exec-prefix', 'includes', 'libs', 'cflags',$/;"	kind:variable	line:11
+exit_with_usage	venv/lib/python3.4/config-3.4m/python-config.py	/^def exit_with_usage(code=1):$/;"	kind:function	line:14
+pyver	venv/lib/python3.4/config-3.4m/python-config.py	/^pyver = sysconfig.get_config_var('VERSION')$/;"	kind:variable	line:27
+getvar	venv/lib/python3.4/config-3.4m/python-config.py	/^getvar = sysconfig.get_config_var$/;"	kind:variable	line:28
+opt_flags	venv/lib/python3.4/config-3.4m/python-config.py	/^opt_flags = [flag for (flag, val) in opts]$/;"	kind:variable	line:30
+copy.py	venv/lib/python3.4/copy.py	1;"	kind:file	line:1
+types	venv/lib/python3.4/copy.py	/^import types$/;"	kind:namespace	line:51
+weakref	venv/lib/python3.4/copy.py	/^import weakref$/;"	kind:namespace	line:52
+dispatch_table	venv/lib/python3.4/copy.py	/^from copyreg import dispatch_table$/;"	kind:namespace	line:53
+builtins	venv/lib/python3.4/copy.py	/^import builtins$/;"	kind:namespace	line:54
+Error	venv/lib/python3.4/copy.py	/^class Error(Exception):$/;"	kind:class	line:56
+error	venv/lib/python3.4/copy.py	/^error = Error   # backward compatibility$/;"	kind:variable	line:58
+PyStringMap	venv/lib/python3.4/copy.py	/^    from org.python.core import PyStringMap$/;"	kind:namespace	line:61
+PyStringMap	venv/lib/python3.4/copy.py	/^    PyStringMap = None$/;"	kind:variable	line:63
+__all__	venv/lib/python3.4/copy.py	/^__all__ = ["Error", "copy", "deepcopy"]$/;"	kind:variable	line:65
+copy	venv/lib/python3.4/copy.py	/^def copy(x):$/;"	kind:function	line:67
+_copy_immutable	venv/lib/python3.4/copy.py	/^def _copy_immutable(x):$/;"	kind:function	line:110
+t	venv/lib/python3.4/copy.py	/^t = getattr(types, "CodeType", None)$/;"	kind:variable	line:117
+_copy_with_constructor	venv/lib/python3.4/copy.py	/^def _copy_with_constructor(x):$/;"	kind:function	line:125
+_copy_with_copy_method	venv/lib/python3.4/copy.py	/^def _copy_with_copy_method(x):$/;"	kind:function	line:130
+deepcopy	venv/lib/python3.4/copy.py	/^def deepcopy(x, memo=None, _nil=[]):$/;"	kind:function	line:137
+issc	venv/lib/python3.4/copy.py	/^            issc = 0$/;"	kind:variable	line:160
+y	venv/lib/python3.4/copy.py	/^            y = _deepcopy_atomic(x, memo)$/;"	kind:variable	line:162
+copier	venv/lib/python3.4/copy.py	/^            copier = getattr(x, "__deepcopy__", None)$/;"	kind:variable	line:164
+y	venv/lib/python3.4/copy.py	/^                y = copier(memo)$/;"	kind:variable	line:166
+reductor	venv/lib/python3.4/copy.py	/^                reductor = dispatch_table.get(cls)$/;"	kind:variable	line:168
+rv	venv/lib/python3.4/copy.py	/^                    rv = reductor(x)$/;"	kind:variable	line:170
+reductor	venv/lib/python3.4/copy.py	/^                    reductor = getattr(x, "__reduce_ex__", None)$/;"	kind:variable	line:172
+rv	venv/lib/python3.4/copy.py	/^                        rv = reductor(2)$/;"	kind:variable	line:174
+reductor	venv/lib/python3.4/copy.py	/^                        reductor = getattr(x, "__reduce__", None)$/;"	kind:variable	line:176
+rv	venv/lib/python3.4/copy.py	/^                            rv = reductor()$/;"	kind:variable	line:178
+y	venv/lib/python3.4/copy.py	/^                y = _reconstruct(x, rv, 1, memo)$/;"	kind:variable	line:182
+_deepcopy_atomic	venv/lib/python3.4/copy.py	/^def _deepcopy_atomic(x, memo):$/;"	kind:function	line:192
+_deepcopy_list	venv/lib/python3.4/copy.py	/^def _deepcopy_list(x, memo):$/;"	kind:function	line:215
+_deepcopy_tuple	venv/lib/python3.4/copy.py	/^def _deepcopy_tuple(x, memo):$/;"	kind:function	line:223
+_deepcopy_dict	venv/lib/python3.4/copy.py	/^def _deepcopy_dict(x, memo):$/;"	kind:function	line:242
+_deepcopy_method	venv/lib/python3.4/copy.py	/^def _deepcopy_method(x, memo): # Copy instance methods$/;"	kind:function	line:252
+_keep_alive	venv/lib/python3.4/copy.py	/^def _keep_alive(x, memo):$/;"	kind:function	line:256
+_reconstruct	venv/lib/python3.4/copy.py	/^def _reconstruct(x, info, deep, memo=None):$/;"	kind:function	line:272
+_EmptyClass	venv/lib/python3.4/copy.py	/^class _EmptyClass:$/;"	kind:class	line:332
+copyreg.py	venv/lib/python3.4/copyreg.py	1;"	kind:file	line:1
+__all__	venv/lib/python3.4/copyreg.py	/^__all__ = ["pickle", "constructor",$/;"	kind:variable	line:7
+dispatch_table	venv/lib/python3.4/copyreg.py	/^dispatch_table = {}$/;"	kind:variable	line:10
+pickle	venv/lib/python3.4/copyreg.py	/^def pickle(ob_type, pickle_function, constructor_ob=None):$/;"	kind:function	line:12
+constructor	venv/lib/python3.4/copyreg.py	/^def constructor(object):$/;"	kind:function	line:22
+pickle_complex	venv/lib/python3.4/copyreg.py	/^    def pickle_complex(c):$/;"	kind:function	line:34
+_reconstructor	venv/lib/python3.4/copyreg.py	/^def _reconstructor(cls, base, state):$/;"	kind:function	line:41
+_HEAPTYPE	venv/lib/python3.4/copyreg.py	/^_HEAPTYPE = 1<<9$/;"	kind:variable	line:50
+_reduce_ex	venv/lib/python3.4/copyreg.py	/^def _reduce_ex(self, proto):$/;"	kind:function	line:54
+__newobj__	venv/lib/python3.4/copyreg.py	/^def __newobj__(cls, *args):$/;"	kind:function	line:87
+__newobj_ex__	venv/lib/python3.4/copyreg.py	/^def __newobj_ex__(cls, args, kwargs):$/;"	kind:function	line:90
+_slotnames	venv/lib/python3.4/copyreg.py	/^def _slotnames(cls):$/;"	kind:function	line:96
+_extension_registry	venv/lib/python3.4/copyreg.py	/^_extension_registry = {}                # key -> code$/;"	kind:variable	line:152
+_inverted_registry	venv/lib/python3.4/copyreg.py	/^_inverted_registry = {}                 # code -> key$/;"	kind:variable	line:153
+_extension_cache	venv/lib/python3.4/copyreg.py	/^_extension_cache = {}                   # code -> object$/;"	kind:variable	line:154
+add_extension	venv/lib/python3.4/copyreg.py	/^def add_extension(module, name, code):$/;"	kind:function	line:158
+remove_extension	venv/lib/python3.4/copyreg.py	/^def remove_extension(module, name, code):$/;"	kind:function	line:176
+clear_extension_cache	venv/lib/python3.4/copyreg.py	/^def clear_extension_cache():$/;"	kind:function	line:188
+__init__.py	venv/lib/python3.4/distutils/__init__.py	1;"	kind:file	line:1
+os	venv/lib/python3.4/distutils/__init__.py	/^import os$/;"	kind:namespace	line:1
+sys	venv/lib/python3.4/distutils/__init__.py	/^import sys$/;"	kind:namespace	line:2
+warnings	venv/lib/python3.4/distutils/__init__.py	/^import warnings $/;"	kind:namespace	line:3
+imp	venv/lib/python3.4/distutils/__init__.py	/^import imp$/;"	kind:namespace	line:4
+opcode	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+opcode	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+is	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+not	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+a	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+virtualenv	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+module	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+so	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+we	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+can	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+use	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+it	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+to	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+find	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+the	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+stdlib	venv/lib/python3.4/distutils/__init__.py	/^import opcode # opcode is not a virtualenv module, so we can use it to find the stdlib$/;"	kind:namespace	line:5
+dirname	venv/lib/python3.4/distutils/__init__.py	/^dirname = os.path.dirname$/;"	kind:variable	line:9
+distutils_path	venv/lib/python3.4/distutils/__init__.py	/^distutils_path = os.path.join(os.path.dirname(opcode.__file__), 'distutils')$/;"	kind:variable	line:11
+real_distutils	venv/lib/python3.4/distutils/__init__.py	/^    real_distutils = imp.load_module("_virtualenv_distutils", None, distutils_path, ('', '', imp.PKG_DIRECTORY))$/;"	kind:variable	line:17
+__revision__	venv/lib/python3.4/distutils/__init__.py	/^        __revision__ = real_distutils.__revision__$/;"	kind:variable	line:20
+__version__	venv/lib/python3.4/distutils/__init__.py	/^    __version__ = real_distutils.__version__$/;"	kind:variable	line:23
+dist	venv/lib/python3.4/distutils/__init__.py	/^from distutils import dist, sysconfig$/;"	kind:namespace	line:25
+sysconfig	venv/lib/python3.4/distutils/__init__.py	/^from distutils import dist, sysconfig$/;"	kind:namespace	line:25
+basestring	venv/lib/python3.4/distutils/__init__.py	/^    basestring = str$/;"	kind:variable	line:30
+old_build_ext	venv/lib/python3.4/distutils/__init__.py	/^    from distutils.command.build_ext import build_ext as old_build_ext$/;"	kind:namespace	line:36
+build_ext	venv/lib/python3.4/distutils/__init__.py	/^    class build_ext(old_build_ext):$/;"	kind:class	line:37
+finalize_options	venv/lib/python3.4/distutils/__init__.py	/^        def finalize_options (self):$/;"	kind:member	line:38
+build_ext_module	venv/lib/python3.4/distutils/__init__.py	/^    from distutils.command import build_ext as build_ext_module $/;"	kind:namespace	line:47
+old_find_config_files	venv/lib/python3.4/distutils/__init__.py	/^old_find_config_files = dist.Distribution.find_config_files$/;"	kind:variable	line:52
+find_config_files	venv/lib/python3.4/distutils/__init__.py	/^def find_config_files(self):$/;"	kind:function	line:53
+old_get_python_inc	venv/lib/python3.4/distutils/__init__.py	/^old_get_python_inc = sysconfig.get_python_inc$/;"	kind:variable	line:74
+sysconfig_get_python_inc	venv/lib/python3.4/distutils/__init__.py	/^def sysconfig_get_python_inc(plat_specific=0, prefix=None):$/;"	kind:function	line:75
+old_get_python_lib	venv/lib/python3.4/distutils/__init__.py	/^old_get_python_lib = sysconfig.get_python_lib$/;"	kind:variable	line:82
+sysconfig_get_python_lib	venv/lib/python3.4/distutils/__init__.py	/^def sysconfig_get_python_lib(plat_specific=0, standard_lib=0, prefix=None):$/;"	kind:function	line:83
+old_get_config_vars	venv/lib/python3.4/distutils/__init__.py	/^old_get_config_vars = sysconfig.get_config_vars$/;"	kind:variable	line:90
+sysconfig_get_config_vars	venv/lib/python3.4/distutils/__init__.py	/^def sysconfig_get_config_vars(*args):$/;"	kind:function	line:91
+aliases.py	venv/lib/python3.4/encodings/aliases.py	1;"	kind:file	line:1
+aliases	venv/lib/python3.4/encodings/aliases.py	/^aliases = {$/;"	kind:variable	line:18
+ascii.py	venv/lib/python3.4/encodings/ascii.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/ascii.py	/^import codecs$/;"	kind:namespace	line:9
+Codec	venv/lib/python3.4/encodings/ascii.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:13
+encode	venv/lib/python3.4/encodings/ascii.py	/^    encode = codecs.ascii_encode$/;"	kind:variable	line:17
+decode	venv/lib/python3.4/encodings/ascii.py	/^    decode = codecs.ascii_decode$/;"	kind:variable	line:18
+IncrementalEncoder	venv/lib/python3.4/encodings/ascii.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:20
+encode	venv/lib/python3.4/encodings/ascii.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:21
+IncrementalDecoder	venv/lib/python3.4/encodings/ascii.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:24
+decode	venv/lib/python3.4/encodings/ascii.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:25
+StreamWriter	venv/lib/python3.4/encodings/ascii.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:28
+StreamReader	venv/lib/python3.4/encodings/ascii.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:31
+StreamConverter	venv/lib/python3.4/encodings/ascii.py	/^class StreamConverter(StreamWriter,StreamReader):$/;"	kind:class	line:34
+encode	venv/lib/python3.4/encodings/ascii.py	/^    encode = codecs.ascii_decode$/;"	kind:variable	line:36
+decode	venv/lib/python3.4/encodings/ascii.py	/^    decode = codecs.ascii_encode$/;"	kind:variable	line:37
+getregentry	venv/lib/python3.4/encodings/ascii.py	/^def getregentry():$/;"	kind:function	line:41
+base64_codec.py	venv/lib/python3.4/encodings/base64_codec.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/base64_codec.py	/^import codecs$/;"	kind:namespace	line:8
+base64	venv/lib/python3.4/encodings/base64_codec.py	/^import base64$/;"	kind:namespace	line:9
+base64_encode	venv/lib/python3.4/encodings/base64_codec.py	/^def base64_encode(input, errors='strict'):$/;"	kind:function	line:13
+base64_decode	venv/lib/python3.4/encodings/base64_codec.py	/^def base64_decode(input, errors='strict'):$/;"	kind:function	line:17
+Codec	venv/lib/python3.4/encodings/base64_codec.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:21
+encode	venv/lib/python3.4/encodings/base64_codec.py	/^    def encode(self, input, errors='strict'):$/;"	kind:member	line:22
+decode	venv/lib/python3.4/encodings/base64_codec.py	/^    def decode(self, input, errors='strict'):$/;"	kind:member	line:24
+IncrementalEncoder	venv/lib/python3.4/encodings/base64_codec.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:27
+encode	venv/lib/python3.4/encodings/base64_codec.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:28
+IncrementalDecoder	venv/lib/python3.4/encodings/base64_codec.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:32
+decode	venv/lib/python3.4/encodings/base64_codec.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:33
+StreamWriter	venv/lib/python3.4/encodings/base64_codec.py	/^class StreamWriter(Codec, codecs.StreamWriter):$/;"	kind:class	line:37
+charbuffertype	venv/lib/python3.4/encodings/base64_codec.py	/^    charbuffertype = bytes$/;"	kind:variable	line:38
+StreamReader	venv/lib/python3.4/encodings/base64_codec.py	/^class StreamReader(Codec, codecs.StreamReader):$/;"	kind:class	line:40
+charbuffertype	venv/lib/python3.4/encodings/base64_codec.py	/^    charbuffertype = bytes$/;"	kind:variable	line:41
+getregentry	venv/lib/python3.4/encodings/base64_codec.py	/^def getregentry():$/;"	kind:function	line:45
+big5.py	venv/lib/python3.4/encodings/big5.py	1;"	kind:file	line:1
+_codecs_tw	venv/lib/python3.4/encodings/big5.py	/^import _codecs_tw, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/big5.py	/^import _codecs_tw, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/big5.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/big5.py	/^codec = _codecs_tw.getcodec('big5')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/big5.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/big5.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/big5.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/big5.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/big5.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/big5.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/big5.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/big5.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/big5.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/big5.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/big5.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/big5.py	/^def getregentry():$/;"	kind:function	line:30
+big5hkscs.py	venv/lib/python3.4/encodings/big5hkscs.py	1;"	kind:file	line:1
+_codecs_hk	venv/lib/python3.4/encodings/big5hkscs.py	/^import _codecs_hk, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/big5hkscs.py	/^import _codecs_hk, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/big5hkscs.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/big5hkscs.py	/^codec = _codecs_hk.getcodec('big5hkscs')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/big5hkscs.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/big5hkscs.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/big5hkscs.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/big5hkscs.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/big5hkscs.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/big5hkscs.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/big5hkscs.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/big5hkscs.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/big5hkscs.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/big5hkscs.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/big5hkscs.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/big5hkscs.py	/^def getregentry():$/;"	kind:function	line:30
+bz2_codec.py	venv/lib/python3.4/encodings/bz2_codec.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/bz2_codec.py	/^import codecs$/;"	kind:namespace	line:10
+bz2	venv/lib/python3.4/encodings/bz2_codec.py	/^import bz2 # this codec needs the optional bz2 module !$/;"	kind:namespace	line:11
+this	venv/lib/python3.4/encodings/bz2_codec.py	/^import bz2 # this codec needs the optional bz2 module !$/;"	kind:namespace	line:11
+codec	venv/lib/python3.4/encodings/bz2_codec.py	/^import bz2 # this codec needs the optional bz2 module !$/;"	kind:namespace	line:11
+needs	venv/lib/python3.4/encodings/bz2_codec.py	/^import bz2 # this codec needs the optional bz2 module !$/;"	kind:namespace	line:11
+the	venv/lib/python3.4/encodings/bz2_codec.py	/^import bz2 # this codec needs the optional bz2 module !$/;"	kind:namespace	line:11
+optional	venv/lib/python3.4/encodings/bz2_codec.py	/^import bz2 # this codec needs the optional bz2 module !$/;"	kind:namespace	line:11
+bz2	venv/lib/python3.4/encodings/bz2_codec.py	/^import bz2 # this codec needs the optional bz2 module !$/;"	kind:namespace	line:11
+module	venv/lib/python3.4/encodings/bz2_codec.py	/^import bz2 # this codec needs the optional bz2 module !$/;"	kind:namespace	line:11
+bz2_encode	venv/lib/python3.4/encodings/bz2_codec.py	/^def bz2_encode(input, errors='strict'):$/;"	kind:function	line:15
+bz2_decode	venv/lib/python3.4/encodings/bz2_codec.py	/^def bz2_decode(input, errors='strict'):$/;"	kind:function	line:19
+Codec	venv/lib/python3.4/encodings/bz2_codec.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:23
+encode	venv/lib/python3.4/encodings/bz2_codec.py	/^    def encode(self, input, errors='strict'):$/;"	kind:member	line:24
+decode	venv/lib/python3.4/encodings/bz2_codec.py	/^    def decode(self, input, errors='strict'):$/;"	kind:member	line:26
+IncrementalEncoder	venv/lib/python3.4/encodings/bz2_codec.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:29
+__init__	venv/lib/python3.4/encodings/bz2_codec.py	/^    def __init__(self, errors='strict'):$/;"	kind:member	line:30
+encode	venv/lib/python3.4/encodings/bz2_codec.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:35
+reset	venv/lib/python3.4/encodings/bz2_codec.py	/^    def reset(self):$/;"	kind:member	line:42
+IncrementalDecoder	venv/lib/python3.4/encodings/bz2_codec.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:45
+__init__	venv/lib/python3.4/encodings/bz2_codec.py	/^    def __init__(self, errors='strict'):$/;"	kind:member	line:46
+decode	venv/lib/python3.4/encodings/bz2_codec.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:51
+reset	venv/lib/python3.4/encodings/bz2_codec.py	/^    def reset(self):$/;"	kind:member	line:57
+StreamWriter	venv/lib/python3.4/encodings/bz2_codec.py	/^class StreamWriter(Codec, codecs.StreamWriter):$/;"	kind:class	line:60
+charbuffertype	venv/lib/python3.4/encodings/bz2_codec.py	/^    charbuffertype = bytes$/;"	kind:variable	line:61
+StreamReader	venv/lib/python3.4/encodings/bz2_codec.py	/^class StreamReader(Codec, codecs.StreamReader):$/;"	kind:class	line:63
+charbuffertype	venv/lib/python3.4/encodings/bz2_codec.py	/^    charbuffertype = bytes$/;"	kind:variable	line:64
+getregentry	venv/lib/python3.4/encodings/bz2_codec.py	/^def getregentry():$/;"	kind:function	line:68
+charmap.py	venv/lib/python3.4/encodings/charmap.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/charmap.py	/^import codecs$/;"	kind:namespace	line:13
+Codec	venv/lib/python3.4/encodings/charmap.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/charmap.py	/^    encode = codecs.charmap_encode$/;"	kind:variable	line:21
+decode	venv/lib/python3.4/encodings/charmap.py	/^    decode = codecs.charmap_decode$/;"	kind:variable	line:22
+IncrementalEncoder	venv/lib/python3.4/encodings/charmap.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:24
+__init__	venv/lib/python3.4/encodings/charmap.py	/^    def __init__(self, errors='strict', mapping=None):$/;"	kind:member	line:25
+encode	venv/lib/python3.4/encodings/charmap.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:29
+IncrementalDecoder	venv/lib/python3.4/encodings/charmap.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:32
+__init__	venv/lib/python3.4/encodings/charmap.py	/^    def __init__(self, errors='strict', mapping=None):$/;"	kind:member	line:33
+decode	venv/lib/python3.4/encodings/charmap.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:37
+StreamWriter	venv/lib/python3.4/encodings/charmap.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:40
+__init__	venv/lib/python3.4/encodings/charmap.py	/^    def __init__(self,stream,errors='strict',mapping=None):$/;"	kind:member	line:42
+encode	venv/lib/python3.4/encodings/charmap.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:46
+StreamReader	venv/lib/python3.4/encodings/charmap.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:49
+__init__	venv/lib/python3.4/encodings/charmap.py	/^    def __init__(self,stream,errors='strict',mapping=None):$/;"	kind:member	line:51
+decode	venv/lib/python3.4/encodings/charmap.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:55
+getregentry	venv/lib/python3.4/encodings/charmap.py	/^def getregentry():$/;"	kind:function	line:60
+cp037.py	venv/lib/python3.4/encodings/cp037.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp037.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp037.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp037.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp037.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp037.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp037.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp037.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp037.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp037.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp037.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp037.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp037.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp037.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp1006.py	venv/lib/python3.4/encodings/cp1006.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp1006.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp1006.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp1006.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp1006.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp1006.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp1006.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp1006.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp1006.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp1006.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp1006.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp1006.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp1006.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp1006.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp1026.py	venv/lib/python3.4/encodings/cp1026.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp1026.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp1026.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp1026.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp1026.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp1026.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp1026.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp1026.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp1026.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp1026.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp1026.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp1026.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp1026.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp1026.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp1125.py	venv/lib/python3.4/encodings/cp1125.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp1125.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp1125.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp1125.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp1125.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp1125.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp1125.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp1125.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp1125.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp1125.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp1125.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp1125.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp1125.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp1125.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp1125.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp1140.py	venv/lib/python3.4/encodings/cp1140.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp1140.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp1140.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp1140.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp1140.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp1140.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp1140.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp1140.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp1140.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp1140.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp1140.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp1140.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp1140.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp1140.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp1250.py	venv/lib/python3.4/encodings/cp1250.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp1250.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp1250.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp1250.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp1250.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp1250.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp1250.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp1250.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp1250.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp1250.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp1250.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp1250.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp1250.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp1250.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp1251.py	venv/lib/python3.4/encodings/cp1251.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp1251.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp1251.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp1251.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp1251.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp1251.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp1251.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp1251.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp1251.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp1251.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp1251.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp1251.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp1251.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp1251.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp1252.py	venv/lib/python3.4/encodings/cp1252.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp1252.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp1252.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp1252.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp1252.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp1252.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp1252.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp1252.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp1252.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp1252.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp1252.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp1252.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp1252.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp1252.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp1253.py	venv/lib/python3.4/encodings/cp1253.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp1253.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp1253.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp1253.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp1253.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp1253.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp1253.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp1253.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp1253.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp1253.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp1253.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp1253.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp1253.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp1253.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp1254.py	venv/lib/python3.4/encodings/cp1254.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp1254.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp1254.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp1254.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp1254.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp1254.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp1254.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp1254.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp1254.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp1254.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp1254.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp1254.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp1254.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp1254.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp1255.py	venv/lib/python3.4/encodings/cp1255.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp1255.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp1255.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp1255.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp1255.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp1255.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp1255.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp1255.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp1255.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp1255.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp1255.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp1255.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp1255.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp1255.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp1256.py	venv/lib/python3.4/encodings/cp1256.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp1256.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp1256.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp1256.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp1256.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp1256.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp1256.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp1256.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp1256.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp1256.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp1256.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp1256.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp1256.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp1256.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp1257.py	venv/lib/python3.4/encodings/cp1257.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp1257.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp1257.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp1257.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp1257.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp1257.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp1257.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp1257.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp1257.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp1257.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp1257.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp1257.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp1257.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp1257.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp1258.py	venv/lib/python3.4/encodings/cp1258.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp1258.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp1258.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp1258.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp1258.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp1258.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp1258.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp1258.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp1258.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp1258.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp1258.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp1258.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp1258.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp1258.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp273.py	venv/lib/python3.4/encodings/cp273.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp273.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp273.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp273.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp273.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp273.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp273.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp273.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp273.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp273.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp273.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp273.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp273.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp273.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp424.py	venv/lib/python3.4/encodings/cp424.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp424.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp424.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp424.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp424.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp424.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp424.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp424.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp424.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp424.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp424.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp424.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp424.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp424.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp437.py	venv/lib/python3.4/encodings/cp437.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp437.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp437.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp437.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp437.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp437.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp437.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp437.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp437.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp437.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp437.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp437.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp437.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp437.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp437.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp500.py	venv/lib/python3.4/encodings/cp500.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp500.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp500.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp500.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp500.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp500.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp500.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp500.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp500.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp500.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp500.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp500.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp500.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp500.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp65001.py	venv/lib/python3.4/encodings/cp65001.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp65001.py	/^import codecs$/;"	kind:namespace	line:5
+functools	venv/lib/python3.4/encodings/cp65001.py	/^import functools$/;"	kind:namespace	line:6
+encode	venv/lib/python3.4/encodings/cp65001.py	/^encode = functools.partial(codecs.code_page_encode, 65001)$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/cp65001.py	/^decode = functools.partial(codecs.code_page_decode, 65001)$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp65001.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:16
+encode	venv/lib/python3.4/encodings/cp65001.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:17
+IncrementalDecoder	venv/lib/python3.4/encodings/cp65001.py	/^class IncrementalDecoder(codecs.BufferedIncrementalDecoder):$/;"	kind:class	line:20
+_buffer_decode	venv/lib/python3.4/encodings/cp65001.py	/^    _buffer_decode = decode$/;"	kind:variable	line:21
+StreamWriter	venv/lib/python3.4/encodings/cp65001.py	/^class StreamWriter(codecs.StreamWriter):$/;"	kind:class	line:23
+encode	venv/lib/python3.4/encodings/cp65001.py	/^    encode = encode$/;"	kind:variable	line:24
+StreamReader	venv/lib/python3.4/encodings/cp65001.py	/^class StreamReader(codecs.StreamReader):$/;"	kind:class	line:26
+decode	venv/lib/python3.4/encodings/cp65001.py	/^    decode = decode$/;"	kind:variable	line:27
+getregentry	venv/lib/python3.4/encodings/cp65001.py	/^def getregentry():$/;"	kind:function	line:31
+cp720.py	venv/lib/python3.4/encodings/cp720.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp720.py	/^import codecs$/;"	kind:namespace	line:7
+Codec	venv/lib/python3.4/encodings/cp720.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:11
+encode	venv/lib/python3.4/encodings/cp720.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:13
+decode	venv/lib/python3.4/encodings/cp720.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:16
+IncrementalEncoder	venv/lib/python3.4/encodings/cp720.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:19
+encode	venv/lib/python3.4/encodings/cp720.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:20
+IncrementalDecoder	venv/lib/python3.4/encodings/cp720.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:23
+decode	venv/lib/python3.4/encodings/cp720.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:24
+StreamWriter	venv/lib/python3.4/encodings/cp720.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:27
+StreamReader	venv/lib/python3.4/encodings/cp720.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:30
+getregentry	venv/lib/python3.4/encodings/cp720.py	/^def getregentry():$/;"	kind:function	line:35
+decoding_table	venv/lib/python3.4/encodings/cp720.py	/^decoding_table = ($/;"	kind:variable	line:49
+encoding_table	venv/lib/python3.4/encodings/cp720.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:309
+cp737.py	venv/lib/python3.4/encodings/cp737.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp737.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp737.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp737.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp737.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp737.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp737.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp737.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp737.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp737.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp737.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp737.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp737.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp737.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp737.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp775.py	venv/lib/python3.4/encodings/cp775.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp775.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp775.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp775.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp775.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp775.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp775.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp775.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp775.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp775.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp775.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp775.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp775.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:45
+decoding_table	venv/lib/python3.4/encodings/cp775.py	/^decoding_table = ($/;"	kind:variable	line:179
+encoding_map	venv/lib/python3.4/encodings/cp775.py	/^encoding_map = {$/;"	kind:variable	line:440
+cp850.py	venv/lib/python3.4/encodings/cp850.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp850.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp850.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp850.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp850.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp850.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp850.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp850.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp850.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp850.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp850.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp850.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp850.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp850.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp850.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp852.py	venv/lib/python3.4/encodings/cp852.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp852.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp852.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp852.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp852.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp852.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp852.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp852.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp852.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp852.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp852.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp852.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp852.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp852.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp852.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp855.py	venv/lib/python3.4/encodings/cp855.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp855.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp855.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp855.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp855.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp855.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp855.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp855.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp855.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp855.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp855.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp855.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp855.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp855.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp855.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp856.py	venv/lib/python3.4/encodings/cp856.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp856.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp856.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp856.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp856.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp856.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp856.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp856.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp856.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp856.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp856.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp856.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp856.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp856.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp857.py	venv/lib/python3.4/encodings/cp857.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp857.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp857.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp857.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp857.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp857.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp857.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp857.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp857.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp857.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp857.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp857.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp857.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp857.py	/^decoding_table = ($/;"	kind:variable	line:179
+encoding_map	venv/lib/python3.4/encodings/cp857.py	/^encoding_map = {$/;"	kind:variable	line:440
+cp858.py	venv/lib/python3.4/encodings/cp858.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp858.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp858.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp858.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp858.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp858.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp858.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp858.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp858.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp858.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp858.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp858.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp858.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp858.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp858.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp860.py	venv/lib/python3.4/encodings/cp860.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp860.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp860.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp860.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp860.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp860.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp860.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp860.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp860.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp860.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp860.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp860.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp860.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp860.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp860.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp861.py	venv/lib/python3.4/encodings/cp861.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp861.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp861.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp861.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp861.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp861.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp861.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp861.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp861.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp861.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp861.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp861.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp861.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp861.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp861.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp862.py	venv/lib/python3.4/encodings/cp862.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp862.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp862.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp862.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp862.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp862.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp862.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp862.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp862.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp862.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp862.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp862.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp862.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp862.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp862.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp863.py	venv/lib/python3.4/encodings/cp863.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp863.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp863.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp863.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp863.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp863.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp863.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp863.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp863.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp863.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp863.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp863.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp863.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp863.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp863.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp864.py	venv/lib/python3.4/encodings/cp864.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp864.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp864.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp864.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp864.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp864.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp864.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp864.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp864.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp864.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp864.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp864.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp864.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp864.py	/^decoding_table = ($/;"	kind:variable	line:178
+encoding_map	venv/lib/python3.4/encodings/cp864.py	/^encoding_map = {$/;"	kind:variable	line:439
+cp865.py	venv/lib/python3.4/encodings/cp865.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp865.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp865.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp865.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp865.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp865.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp865.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp865.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp865.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp865.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp865.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp865.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp865.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp865.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp865.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp866.py	venv/lib/python3.4/encodings/cp866.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp866.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp866.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp866.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp866.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp866.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp866.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp866.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp866.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp866.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp866.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp866.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp866.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp866.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp866.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp869.py	venv/lib/python3.4/encodings/cp869.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp869.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp869.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp869.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp869.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp869.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp869.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp869.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp869.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp869.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp869.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp869.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_map	venv/lib/python3.4/encodings/cp869.py	/^decoding_map = codecs.make_identity_dict(range(256))$/;"	kind:variable	line:46
+decoding_table	venv/lib/python3.4/encodings/cp869.py	/^decoding_table = ($/;"	kind:variable	line:180
+encoding_map	venv/lib/python3.4/encodings/cp869.py	/^encoding_map = {$/;"	kind:variable	line:441
+cp874.py	venv/lib/python3.4/encodings/cp874.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp874.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp874.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp874.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp874.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp874.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp874.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp874.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp874.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp874.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp874.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp874.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp874.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp874.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp875.py	venv/lib/python3.4/encodings/cp875.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/cp875.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/cp875.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/cp875.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/cp875.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp875.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/cp875.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp875.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/cp875.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/cp875.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/cp875.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/cp875.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/cp875.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/cp875.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+cp932.py	venv/lib/python3.4/encodings/cp932.py	1;"	kind:file	line:1
+_codecs_jp	venv/lib/python3.4/encodings/cp932.py	/^import _codecs_jp, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/cp932.py	/^import _codecs_jp, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/cp932.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/cp932.py	/^codec = _codecs_jp.getcodec('cp932')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/cp932.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/cp932.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/cp932.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp932.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/cp932.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp932.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/cp932.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/cp932.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/cp932.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/cp932.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/cp932.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/cp932.py	/^def getregentry():$/;"	kind:function	line:30
+cp949.py	venv/lib/python3.4/encodings/cp949.py	1;"	kind:file	line:1
+_codecs_kr	venv/lib/python3.4/encodings/cp949.py	/^import _codecs_kr, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/cp949.py	/^import _codecs_kr, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/cp949.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/cp949.py	/^codec = _codecs_kr.getcodec('cp949')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/cp949.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/cp949.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/cp949.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp949.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/cp949.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp949.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/cp949.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/cp949.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/cp949.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/cp949.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/cp949.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/cp949.py	/^def getregentry():$/;"	kind:function	line:30
+cp950.py	venv/lib/python3.4/encodings/cp950.py	1;"	kind:file	line:1
+_codecs_tw	venv/lib/python3.4/encodings/cp950.py	/^import _codecs_tw, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/cp950.py	/^import _codecs_tw, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/cp950.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/cp950.py	/^codec = _codecs_tw.getcodec('cp950')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/cp950.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/cp950.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/cp950.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/cp950.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/cp950.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/cp950.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/cp950.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/cp950.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/cp950.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/cp950.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/cp950.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/cp950.py	/^def getregentry():$/;"	kind:function	line:30
+euc_jisx0213.py	venv/lib/python3.4/encodings/euc_jisx0213.py	1;"	kind:file	line:1
+_codecs_jp	venv/lib/python3.4/encodings/euc_jisx0213.py	/^import _codecs_jp, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/euc_jisx0213.py	/^import _codecs_jp, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/euc_jisx0213.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/euc_jisx0213.py	/^codec = _codecs_jp.getcodec('euc_jisx0213')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/euc_jisx0213.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/euc_jisx0213.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/euc_jisx0213.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/euc_jisx0213.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/euc_jisx0213.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/euc_jisx0213.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/euc_jisx0213.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/euc_jisx0213.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/euc_jisx0213.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/euc_jisx0213.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/euc_jisx0213.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/euc_jisx0213.py	/^def getregentry():$/;"	kind:function	line:30
+euc_jis_2004.py	venv/lib/python3.4/encodings/euc_jis_2004.py	1;"	kind:file	line:1
+_codecs_jp	venv/lib/python3.4/encodings/euc_jis_2004.py	/^import _codecs_jp, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/euc_jis_2004.py	/^import _codecs_jp, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/euc_jis_2004.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/euc_jis_2004.py	/^codec = _codecs_jp.getcodec('euc_jis_2004')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/euc_jis_2004.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/euc_jis_2004.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/euc_jis_2004.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/euc_jis_2004.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/euc_jis_2004.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/euc_jis_2004.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/euc_jis_2004.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/euc_jis_2004.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/euc_jis_2004.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/euc_jis_2004.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/euc_jis_2004.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/euc_jis_2004.py	/^def getregentry():$/;"	kind:function	line:30
+euc_jp.py	venv/lib/python3.4/encodings/euc_jp.py	1;"	kind:file	line:1
+_codecs_jp	venv/lib/python3.4/encodings/euc_jp.py	/^import _codecs_jp, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/euc_jp.py	/^import _codecs_jp, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/euc_jp.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/euc_jp.py	/^codec = _codecs_jp.getcodec('euc_jp')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/euc_jp.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/euc_jp.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/euc_jp.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/euc_jp.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/euc_jp.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/euc_jp.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/euc_jp.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/euc_jp.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/euc_jp.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/euc_jp.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/euc_jp.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/euc_jp.py	/^def getregentry():$/;"	kind:function	line:30
+euc_kr.py	venv/lib/python3.4/encodings/euc_kr.py	1;"	kind:file	line:1
+_codecs_kr	venv/lib/python3.4/encodings/euc_kr.py	/^import _codecs_kr, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/euc_kr.py	/^import _codecs_kr, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/euc_kr.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/euc_kr.py	/^codec = _codecs_kr.getcodec('euc_kr')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/euc_kr.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/euc_kr.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/euc_kr.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/euc_kr.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/euc_kr.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/euc_kr.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/euc_kr.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/euc_kr.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/euc_kr.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/euc_kr.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/euc_kr.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/euc_kr.py	/^def getregentry():$/;"	kind:function	line:30
+gb18030.py	venv/lib/python3.4/encodings/gb18030.py	1;"	kind:file	line:1
+_codecs_cn	venv/lib/python3.4/encodings/gb18030.py	/^import _codecs_cn, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/gb18030.py	/^import _codecs_cn, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/gb18030.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/gb18030.py	/^codec = _codecs_cn.getcodec('gb18030')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/gb18030.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/gb18030.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/gb18030.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/gb18030.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/gb18030.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/gb18030.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/gb18030.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/gb18030.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/gb18030.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/gb18030.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/gb18030.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/gb18030.py	/^def getregentry():$/;"	kind:function	line:30
+gb2312.py	venv/lib/python3.4/encodings/gb2312.py	1;"	kind:file	line:1
+_codecs_cn	venv/lib/python3.4/encodings/gb2312.py	/^import _codecs_cn, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/gb2312.py	/^import _codecs_cn, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/gb2312.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/gb2312.py	/^codec = _codecs_cn.getcodec('gb2312')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/gb2312.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/gb2312.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/gb2312.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/gb2312.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/gb2312.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/gb2312.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/gb2312.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/gb2312.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/gb2312.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/gb2312.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/gb2312.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/gb2312.py	/^def getregentry():$/;"	kind:function	line:30
+gbk.py	venv/lib/python3.4/encodings/gbk.py	1;"	kind:file	line:1
+_codecs_cn	venv/lib/python3.4/encodings/gbk.py	/^import _codecs_cn, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/gbk.py	/^import _codecs_cn, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/gbk.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/gbk.py	/^codec = _codecs_cn.getcodec('gbk')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/gbk.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/gbk.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/gbk.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/gbk.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/gbk.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/gbk.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/gbk.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/gbk.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/gbk.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/gbk.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/gbk.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/gbk.py	/^def getregentry():$/;"	kind:function	line:30
+hex_codec.py	venv/lib/python3.4/encodings/hex_codec.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/hex_codec.py	/^import codecs$/;"	kind:namespace	line:8
+binascii	venv/lib/python3.4/encodings/hex_codec.py	/^import binascii$/;"	kind:namespace	line:9
+hex_encode	venv/lib/python3.4/encodings/hex_codec.py	/^def hex_encode(input, errors='strict'):$/;"	kind:function	line:13
+hex_decode	venv/lib/python3.4/encodings/hex_codec.py	/^def hex_decode(input, errors='strict'):$/;"	kind:function	line:17
+Codec	venv/lib/python3.4/encodings/hex_codec.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:21
+encode	venv/lib/python3.4/encodings/hex_codec.py	/^    def encode(self, input, errors='strict'):$/;"	kind:member	line:22
+decode	venv/lib/python3.4/encodings/hex_codec.py	/^    def decode(self, input, errors='strict'):$/;"	kind:member	line:24
+IncrementalEncoder	venv/lib/python3.4/encodings/hex_codec.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:27
+encode	venv/lib/python3.4/encodings/hex_codec.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:28
+IncrementalDecoder	venv/lib/python3.4/encodings/hex_codec.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:32
+decode	venv/lib/python3.4/encodings/hex_codec.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:33
+StreamWriter	venv/lib/python3.4/encodings/hex_codec.py	/^class StreamWriter(Codec, codecs.StreamWriter):$/;"	kind:class	line:37
+charbuffertype	venv/lib/python3.4/encodings/hex_codec.py	/^    charbuffertype = bytes$/;"	kind:variable	line:38
+StreamReader	venv/lib/python3.4/encodings/hex_codec.py	/^class StreamReader(Codec, codecs.StreamReader):$/;"	kind:class	line:40
+charbuffertype	venv/lib/python3.4/encodings/hex_codec.py	/^    charbuffertype = bytes$/;"	kind:variable	line:41
+getregentry	venv/lib/python3.4/encodings/hex_codec.py	/^def getregentry():$/;"	kind:function	line:45
+hp_roman8.py	venv/lib/python3.4/encodings/hp_roman8.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/hp_roman8.py	/^import codecs$/;"	kind:namespace	line:10
+Codec	venv/lib/python3.4/encodings/hp_roman8.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:14
+encode	venv/lib/python3.4/encodings/hp_roman8.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:16
+decode	venv/lib/python3.4/encodings/hp_roman8.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:19
+IncrementalEncoder	venv/lib/python3.4/encodings/hp_roman8.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:22
+encode	venv/lib/python3.4/encodings/hp_roman8.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:23
+IncrementalDecoder	venv/lib/python3.4/encodings/hp_roman8.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:26
+decode	venv/lib/python3.4/encodings/hp_roman8.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:27
+StreamWriter	venv/lib/python3.4/encodings/hp_roman8.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:30
+StreamReader	venv/lib/python3.4/encodings/hp_roman8.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:33
+getregentry	venv/lib/python3.4/encodings/hp_roman8.py	/^def getregentry():$/;"	kind:function	line:38
+decoding_table	venv/lib/python3.4/encodings/hp_roman8.py	/^decoding_table = ($/;"	kind:variable	line:52
+encoding_table	venv/lib/python3.4/encodings/hp_roman8.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:312
+hz.py	venv/lib/python3.4/encodings/hz.py	1;"	kind:file	line:1
+_codecs_cn	venv/lib/python3.4/encodings/hz.py	/^import _codecs_cn, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/hz.py	/^import _codecs_cn, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/hz.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/hz.py	/^codec = _codecs_cn.getcodec('hz')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/hz.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/hz.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/hz.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/hz.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/hz.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/hz.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/hz.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/hz.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/hz.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/hz.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/hz.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/hz.py	/^def getregentry():$/;"	kind:function	line:30
+idna.py	venv/lib/python3.4/encodings/idna.py	1;"	kind:file	line:1
+stringprep	venv/lib/python3.4/encodings/idna.py	/^import stringprep, re, codecs$/;"	kind:namespace	line:3
+re	venv/lib/python3.4/encodings/idna.py	/^import stringprep, re, codecs$/;"	kind:namespace	line:3
+codecs	venv/lib/python3.4/encodings/idna.py	/^import stringprep, re, codecs$/;"	kind:namespace	line:3
+unicodedata	venv/lib/python3.4/encodings/idna.py	/^from unicodedata import ucd_3_2_0 as unicodedata$/;"	kind:namespace	line:4
+dots	venv/lib/python3.4/encodings/idna.py	/^dots = re.compile("[\\u002E\\u3002\\uFF0E\\uFF61]")$/;"	kind:variable	line:7
+ace_prefix	venv/lib/python3.4/encodings/idna.py	/^ace_prefix = b"xn--"$/;"	kind:variable	line:10
+sace_prefix	venv/lib/python3.4/encodings/idna.py	/^sace_prefix = "xn--"$/;"	kind:variable	line:11
+nameprep	venv/lib/python3.4/encodings/idna.py	/^def nameprep(label):$/;"	kind:function	line:14
+ToASCII	venv/lib/python3.4/encodings/idna.py	/^def ToASCII(label):$/;"	kind:function	line:62
+ToUnicode	venv/lib/python3.4/encodings/idna.py	/^def ToUnicode(label):$/;"	kind:function	line:105
+Codec	venv/lib/python3.4/encodings/idna.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:146
+encode	venv/lib/python3.4/encodings/idna.py	/^    def encode(self, input, errors='strict'):$/;"	kind:member	line:147
+decode	venv/lib/python3.4/encodings/idna.py	/^    def decode(self, input, errors='strict'):$/;"	kind:member	line:184
+IncrementalEncoder	venv/lib/python3.4/encodings/idna.py	/^class IncrementalEncoder(codecs.BufferedIncrementalEncoder):$/;"	kind:class	line:218
+_buffer_encode	venv/lib/python3.4/encodings/idna.py	/^    def _buffer_encode(self, input, errors, final):$/;"	kind:member	line:219
+IncrementalDecoder	venv/lib/python3.4/encodings/idna.py	/^class IncrementalDecoder(codecs.BufferedIncrementalDecoder):$/;"	kind:class	line:253
+_buffer_decode	venv/lib/python3.4/encodings/idna.py	/^    def _buffer_decode(self, input, errors, final):$/;"	kind:member	line:254
+StreamWriter	venv/lib/python3.4/encodings/idna.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:292
+StreamReader	venv/lib/python3.4/encodings/idna.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:295
+getregentry	venv/lib/python3.4/encodings/idna.py	/^def getregentry():$/;"	kind:function	line:300
+iso2022_jp.py	venv/lib/python3.4/encodings/iso2022_jp.py	1;"	kind:file	line:1
+_codecs_iso2022	venv/lib/python3.4/encodings/iso2022_jp.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/iso2022_jp.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/iso2022_jp.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/iso2022_jp.py	/^codec = _codecs_iso2022.getcodec('iso2022_jp')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/iso2022_jp.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/iso2022_jp.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/iso2022_jp.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso2022_jp.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/iso2022_jp.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso2022_jp.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/iso2022_jp.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/iso2022_jp.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/iso2022_jp.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/iso2022_jp.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/iso2022_jp.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/iso2022_jp.py	/^def getregentry():$/;"	kind:function	line:30
+iso2022_jp_1.py	venv/lib/python3.4/encodings/iso2022_jp_1.py	1;"	kind:file	line:1
+_codecs_iso2022	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^codec = _codecs_iso2022.getcodec('iso2022_jp_1')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/iso2022_jp_1.py	/^def getregentry():$/;"	kind:function	line:30
+iso2022_jp_2.py	venv/lib/python3.4/encodings/iso2022_jp_2.py	1;"	kind:file	line:1
+_codecs_iso2022	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^codec = _codecs_iso2022.getcodec('iso2022_jp_2')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/iso2022_jp_2.py	/^def getregentry():$/;"	kind:function	line:30
+iso2022_jp_2004.py	venv/lib/python3.4/encodings/iso2022_jp_2004.py	1;"	kind:file	line:1
+_codecs_iso2022	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^codec = _codecs_iso2022.getcodec('iso2022_jp_2004')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/iso2022_jp_2004.py	/^def getregentry():$/;"	kind:function	line:30
+iso2022_jp_3.py	venv/lib/python3.4/encodings/iso2022_jp_3.py	1;"	kind:file	line:1
+_codecs_iso2022	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^codec = _codecs_iso2022.getcodec('iso2022_jp_3')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/iso2022_jp_3.py	/^def getregentry():$/;"	kind:function	line:30
+iso2022_jp_ext.py	venv/lib/python3.4/encodings/iso2022_jp_ext.py	1;"	kind:file	line:1
+_codecs_iso2022	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^codec = _codecs_iso2022.getcodec('iso2022_jp_ext')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/iso2022_jp_ext.py	/^def getregentry():$/;"	kind:function	line:30
+iso2022_kr.py	venv/lib/python3.4/encodings/iso2022_kr.py	1;"	kind:file	line:1
+_codecs_iso2022	venv/lib/python3.4/encodings/iso2022_kr.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+codecs	venv/lib/python3.4/encodings/iso2022_kr.py	/^import _codecs_iso2022, codecs$/;"	kind:namespace	line:7
+mbc	venv/lib/python3.4/encodings/iso2022_kr.py	/^import _multibytecodec as mbc$/;"	kind:namespace	line:8
+codec	venv/lib/python3.4/encodings/iso2022_kr.py	/^codec = _codecs_iso2022.getcodec('iso2022_kr')$/;"	kind:variable	line:10
+Codec	venv/lib/python3.4/encodings/iso2022_kr.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:12
+encode	venv/lib/python3.4/encodings/iso2022_kr.py	/^    encode = codec.encode$/;"	kind:variable	line:13
+decode	venv/lib/python3.4/encodings/iso2022_kr.py	/^    decode = codec.decode$/;"	kind:variable	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso2022_kr.py	/^                         codecs.IncrementalEncoder):$/;"	kind:class	line:17
+codec	venv/lib/python3.4/encodings/iso2022_kr.py	/^    codec = codec$/;"	kind:variable	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso2022_kr.py	/^                         codecs.IncrementalDecoder):$/;"	kind:class	line:21
+codec	venv/lib/python3.4/encodings/iso2022_kr.py	/^    codec = codec$/;"	kind:variable	line:22
+StreamReader	venv/lib/python3.4/encodings/iso2022_kr.py	/^class StreamReader(Codec, mbc.MultibyteStreamReader, codecs.StreamReader):$/;"	kind:class	line:24
+codec	venv/lib/python3.4/encodings/iso2022_kr.py	/^    codec = codec$/;"	kind:variable	line:25
+StreamWriter	venv/lib/python3.4/encodings/iso2022_kr.py	/^class StreamWriter(Codec, mbc.MultibyteStreamWriter, codecs.StreamWriter):$/;"	kind:class	line:27
+codec	venv/lib/python3.4/encodings/iso2022_kr.py	/^    codec = codec$/;"	kind:variable	line:28
+getregentry	venv/lib/python3.4/encodings/iso2022_kr.py	/^def getregentry():$/;"	kind:function	line:30
+iso8859_1.py	venv/lib/python3.4/encodings/iso8859_1.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/iso8859_1.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/iso8859_1.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/iso8859_1.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/iso8859_1.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso8859_1.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/iso8859_1.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso8859_1.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/iso8859_1.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/iso8859_1.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/iso8859_1.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/iso8859_1.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/iso8859_1.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/iso8859_1.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+iso8859_10.py	venv/lib/python3.4/encodings/iso8859_10.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/iso8859_10.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/iso8859_10.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/iso8859_10.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/iso8859_10.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso8859_10.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/iso8859_10.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso8859_10.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/iso8859_10.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/iso8859_10.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/iso8859_10.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/iso8859_10.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/iso8859_10.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/iso8859_10.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+iso8859_11.py	venv/lib/python3.4/encodings/iso8859_11.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/iso8859_11.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/iso8859_11.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/iso8859_11.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/iso8859_11.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso8859_11.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/iso8859_11.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso8859_11.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/iso8859_11.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/iso8859_11.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/iso8859_11.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/iso8859_11.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/iso8859_11.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/iso8859_11.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+iso8859_13.py	venv/lib/python3.4/encodings/iso8859_13.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/iso8859_13.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/iso8859_13.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/iso8859_13.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/iso8859_13.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso8859_13.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/iso8859_13.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso8859_13.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/iso8859_13.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/iso8859_13.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/iso8859_13.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/iso8859_13.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/iso8859_13.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/iso8859_13.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+iso8859_14.py	venv/lib/python3.4/encodings/iso8859_14.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/iso8859_14.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/iso8859_14.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/iso8859_14.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/iso8859_14.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso8859_14.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/iso8859_14.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso8859_14.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/iso8859_14.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/iso8859_14.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/iso8859_14.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/iso8859_14.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/iso8859_14.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/iso8859_14.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+iso8859_15.py	venv/lib/python3.4/encodings/iso8859_15.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/iso8859_15.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/iso8859_15.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/iso8859_15.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/iso8859_15.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso8859_15.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/iso8859_15.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso8859_15.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/iso8859_15.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/iso8859_15.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/iso8859_15.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/iso8859_15.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/iso8859_15.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/iso8859_15.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+iso8859_16.py	venv/lib/python3.4/encodings/iso8859_16.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/iso8859_16.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/iso8859_16.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/iso8859_16.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/iso8859_16.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso8859_16.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/iso8859_16.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso8859_16.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/iso8859_16.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/iso8859_16.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/iso8859_16.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/iso8859_16.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/iso8859_16.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/iso8859_16.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307
+iso8859_2.py	venv/lib/python3.4/encodings/iso8859_2.py	1;"	kind:file	line:1
+codecs	venv/lib/python3.4/encodings/iso8859_2.py	/^import codecs$/;"	kind:namespace	line:5
+Codec	venv/lib/python3.4/encodings/iso8859_2.py	/^class Codec(codecs.Codec):$/;"	kind:class	line:9
+encode	venv/lib/python3.4/encodings/iso8859_2.py	/^    def encode(self,input,errors='strict'):$/;"	kind:member	line:11
+decode	venv/lib/python3.4/encodings/iso8859_2.py	/^    def decode(self,input,errors='strict'):$/;"	kind:member	line:14
+IncrementalEncoder	venv/lib/python3.4/encodings/iso8859_2.py	/^class IncrementalEncoder(codecs.IncrementalEncoder):$/;"	kind:class	line:17
+encode	venv/lib/python3.4/encodings/iso8859_2.py	/^    def encode(self, input, final=False):$/;"	kind:member	line:18
+IncrementalDecoder	venv/lib/python3.4/encodings/iso8859_2.py	/^class IncrementalDecoder(codecs.IncrementalDecoder):$/;"	kind:class	line:21
+decode	venv/lib/python3.4/encodings/iso8859_2.py	/^    def decode(self, input, final=False):$/;"	kind:member	line:22
+StreamWriter	venv/lib/python3.4/encodings/iso8859_2.py	/^class StreamWriter(Codec,codecs.StreamWriter):$/;"	kind:class	line:25
+StreamReader	venv/lib/python3.4/encodings/iso8859_2.py	/^class StreamReader(Codec,codecs.StreamReader):$/;"	kind:class	line:28
+getregentry	venv/lib/python3.4/encodings/iso8859_2.py	/^def getregentry():$/;"	kind:function	line:33
+decoding_table	venv/lib/python3.4/encodings/iso8859_2.py	/^decoding_table = ($/;"	kind:variable	line:47
+encoding_table	venv/lib/python3.4/encodings/iso8859_2.py	/^encoding_table=codecs.charmap_build(decoding_table)$/;"	kind:variable	line:307

@@ -25,6 +25,7 @@ Théorie
     intro
     axiomes
     probas-cond
+    loi-binomiale
 
 
 Corrigé détaillé de certains exercices
@@ -55,7 +56,13 @@ Corrigé détaillé de certains exercices
     exo-22
     exo-23
     exo-24
-
+    exo-25
+    exo-26
+    exo-27
+    exo-28
+    exo-29
+    exo-30
+    exo-31
 
 Corrigé des exercices 6 et suivants
 -----------------------------------
