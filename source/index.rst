@@ -21,6 +21,7 @@ Mathématiques 3ECG
     02-exp-log/index
     03-combinatoire/index
     04-proba/index
+    05-stats/index
 
 ..
     Indices and ref

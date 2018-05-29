@@ -13,7 +13,7 @@ $(error The '$(SPHINXBUILD)' command was not found. Make sure you have Sphinx in
 endif
 
 ifndef SPHINX_PORT
-	SPHINX_PORT=8080
+	SPHINX_PORT=5000
 endif
 
 ifndef SPHINX_HOST
@@ -72,7 +72,7 @@ cleanhtml:
 	rm -rf $(BUILDDIR)/html
 
 html:
-	cp -f $(BUILDDIR)/latex/*.pdf source/files/
+	# cp -f $(BUILDDIR)/latex/*.pdf source/files/
 	$(SPHINXBUILD) -b html -t corrige $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
@@ -233,7 +233,13 @@ ssh:
 puthtml: cleanhtml html
 	rsync -raz build/html/* webpub@donner-online.ch:/home/webpub/html/ma3ecg/ --progress --delete
 
-deploy: puthtml
+surge: html
+	surge -d ma3ecg.surge.sh -p build/html
+
+teardown:
+	surge teardown ma3ecg.surge.sh 
+
+deploy: surge
 
 	
 # putcorrige:

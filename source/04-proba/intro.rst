@@ -9,8 +9,8 @@ Lancer d’une pièce de monnaie
     <script src="//repl.it/embed/FSkC/0.js"></script>
 
 
-Simulation
-----------
+Somme de deux dés (simulation)
+------------------------------
 
 ..  raw:: html
 

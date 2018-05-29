@@ -26,9 +26,10 @@ Corrigé détaillé de certains exercices
 
     exo-14
     exo-16
+    exo-17
     exo-18
     exo-19
-    exo-20
+    .. exo-20
     exo-21
     exo-22
     exo-23
